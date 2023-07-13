@@ -1,9 +1,32 @@
 use rand::Rng;
 
 pub const NUM_RANKS: u8 = 13;
+pub const NUM_SUITS: u8 = 4;
+pub const NUM_CARDS: u8 = NUM_RANKS * NUM_SUITS;
 
 #[derive(Clone, Copy, Eq, PartialEq)]
 pub struct Rank(u8);
+
+#[derive(Clone, Copy, Eq, PartialEq)]
+pub struct Suit(u8);
+
+#[derive(Clone, Copy, Eq, PartialEq)]
+pub struct Card(u8);
+impl Card {
+    #[must_use]
+    pub fn rank(&self) -> Rank {
+        Rank(self.0 >> 2)
+    }
+    #[must_use]
+    pub fn suit(&self) -> Suit {
+        Suit(self.0 & 3)
+    }
+}
+
+#[must_use]
+pub fn deck() -> Vec<Card> {
+    (0..NUM_CARDS).map(Card).collect()
+}
 
 #[derive(Clone, Copy)]
 pub struct PathLength(Rank);
@@ -60,5 +83,10 @@ mod tests {
             assert_eq!(pli.0.count_ones(), 1 + old_pli.0.count_ones());
         }
         assert!(pli.reveal_random(length).is_none());
+    }
+
+    #[test]
+    fn test_deck() {
+        let _d = deck();
     }
 }
