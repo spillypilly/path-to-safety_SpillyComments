@@ -1,0 +1,11 @@
+[package]
+name = "pluta-lesnura"
+version = "0.1.0"
+edition = "2021"
+authors = ["Scott Worley <scottworley@scottworley.com>"]
+description = "A cooperative game of AI notkilleveryoneism"
+license = "AGPL-3.0"
+repository = "https://git.scottworley.com/pluta-lesnura"
+
+
+[dependencies]
