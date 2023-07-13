@@ -2,7 +2,8 @@ use rand::Rng;
 
 pub const NUM_RANKS: u8 = 13;
 pub const NUM_SUITS: u8 = 4;
-pub const NUM_CARDS: u8 = NUM_RANKS * NUM_SUITS;
+pub const NUM_JOKERS: u8 = 2;
+pub const NUM_CARDS: u8 = NUM_RANKS * NUM_SUITS + NUM_JOKERS;
 
 #[derive(Clone, Copy, Eq, PartialEq)]
 pub struct Rank(u8);
@@ -14,18 +15,32 @@ pub struct Suit(u8);
 pub struct Card(u8);
 impl Card {
     #[must_use]
-    pub fn rank(&self) -> Rank {
-        Rank(self.0 >> 2)
+    pub fn is_joker(&self) -> bool {
+        self.0 >= NUM_RANKS * NUM_SUITS
     }
     #[must_use]
-    pub fn suit(&self) -> Suit {
-        Suit(self.0 & 3)
+    pub fn rank(&self) -> Option<Rank> {
+        (!self.is_joker()).then_some(Rank(self.0 >> 2))
+    }
+    #[must_use]
+    pub fn suit(&self) -> Option<Suit> {
+        (!self.is_joker()).then_some(Suit(self.0 & 3))
     }
 }
 
+#[derive(Clone, Copy)]
+pub enum WithOrWithoutJokers {
+    WithJokers,
+    WithoutJokers,
+}
+
 #[must_use]
-pub fn deck() -> Vec<Card> {
-    (0..NUM_CARDS).map(Card).collect()
+pub fn deck(j: WithOrWithoutJokers) -> Vec<Card> {
+    let limit = match j {
+        WithOrWithoutJokers::WithJokers => NUM_CARDS,
+        WithOrWithoutJokers::WithoutJokers => NUM_SUITS * NUM_RANKS,
+    };
+    (0..limit).map(Card).collect()
 }
 
 #[derive(Clone, Copy)]
@@ -87,6 +102,8 @@ mod tests {
 
     #[test]
     fn test_deck() {
-        let _d = deck();
+        use WithOrWithoutJokers::*;
+        let _d = deck(WithoutJokers);
+        let _dj = deck(WithJokers);
     }
 }
