@@ -7,6 +7,12 @@ pub const NUM_CARDS: u8 = NUM_RANKS * NUM_SUITS + NUM_JOKERS;
 
 #[derive(Clone, Copy, Eq, PartialEq)]
 pub struct Rank(u8);
+impl Rank {
+    #[must_use]
+    pub fn value(&self) -> u8 {
+        self.0 + 1
+    }
+}
 
 #[derive(Clone, Copy, Eq, PartialEq)]
 pub struct Suit(u8);
@@ -103,7 +109,14 @@ mod tests {
     #[test]
     fn test_deck() {
         use WithOrWithoutJokers::*;
-        let _d = deck(WithoutJokers);
+        let d = deck(WithoutJokers);
+        let rank_sum: u32 = d
+            .iter()
+            .map(Card::rank)
+            .flatten()
+            .map(|r| u32::from(r.value()))
+            .sum();
+        assert_eq!(rank_sum, 364);
         let _dj = deck(WithJokers);
     }
 }
