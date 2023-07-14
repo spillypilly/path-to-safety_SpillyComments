@@ -30,7 +30,7 @@ in_git_index_in_tmpdir() {
 }
 
 verify() {
-  cargo test
+  cargo test --offline
   cargo clippy -- -D warnings -W clippy::pedantic
   rustfmt --check src/*.rs
 }
