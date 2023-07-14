@@ -1,9 +1,9 @@
 use rand::Rng;
 
-pub const NUM_RANKS: u8 = 13;
-pub const NUM_SUITS: u8 = 4;
-pub const NUM_JOKERS: u8 = 2;
-pub const NUM_CARDS: u8 = NUM_RANKS * NUM_SUITS + NUM_JOKERS;
+pub const NUM_RANKS: usize = 13;
+pub const NUM_SUITS: usize = 4;
+pub const NUM_JOKERS: usize = 2;
+pub const NUM_CARDS: usize = NUM_RANKS * NUM_SUITS + NUM_JOKERS;
 
 #[derive(Clone, Copy, Eq, PartialEq)]
 pub struct Rank(u8);
@@ -22,7 +22,7 @@ pub struct Card(u8);
 impl Card {
     #[must_use]
     pub fn is_joker(&self) -> bool {
-        self.0 >= NUM_RANKS * NUM_SUITS
+        usize::from(self.0) >= NUM_RANKS * NUM_SUITS
     }
     #[must_use]
     pub fn rank(&self) -> Option<Rank> {
@@ -42,10 +42,11 @@ pub enum WithOrWithoutJokers {
 
 #[must_use]
 pub fn deck(j: WithOrWithoutJokers) -> Vec<Card> {
-    let limit = match j {
+    let limit = u8::try_from(match j {
         WithOrWithoutJokers::WithJokers => NUM_CARDS,
         WithOrWithoutJokers::WithoutJokers => NUM_SUITS * NUM_RANKS,
-    };
+    })
+    .expect("Too many cards?");
     (0..limit).map(Card).collect()
 }
 
@@ -63,7 +64,7 @@ impl PathLengthInfo {
         self.0 |= 1 << i.0;
     }
     pub fn reveal_random(&mut self, true_length: PathLength) -> Option<Rank> {
-        let showing = u8::try_from(self.0.count_ones()).expect("There aren't that many bits");
+        let showing = usize::try_from(self.0.count_ones()).expect("There aren't that many bits");
         let not_showing = NUM_RANKS - showing;
         if not_showing <= 1 {
             return None;
@@ -71,7 +72,7 @@ impl PathLengthInfo {
 
         let mut show = rand::thread_rng().gen_range(0..not_showing - 1);
         for i in 0..NUM_RANKS {
-            let r = Rank(i);
+            let r = Rank(u8::try_from(i).expect("Too many cards?"));
             if !self.is_showing(r) && r != true_length.0 {
                 if show == 0 {
                     self.reveal(r);
