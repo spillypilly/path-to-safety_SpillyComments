@@ -1,3 +1,4 @@
+use rand::seq::SliceRandom;
 use rand::Rng;
 
 pub const NUM_RANKS: usize = 13;
@@ -5,12 +6,29 @@ pub const NUM_SUITS: usize = 4;
 pub const NUM_JOKERS: usize = 2;
 pub const NUM_CARDS: usize = NUM_RANKS * NUM_SUITS + NUM_JOKERS;
 
-#[derive(Clone, Copy, Eq, PartialEq)]
+pub const STARTING_CARDS: u8 = 3;
+pub const STARTING_MAD_SCIENCE_TOKENS: i8 = 15;
+pub const STARTING_PROGRESS: i8 = -10;
+
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct Rank(u8);
 impl Rank {
     #[must_use]
     pub fn value(&self) -> u8 {
         self.0 + 1
+    }
+    #[must_use]
+    pub fn is_face(&self) -> bool {
+        self.value() > 10
+    }
+    #[must_use]
+    pub fn random() -> Self {
+        Self(
+            rand::thread_rng()
+                .gen_range(0..NUM_RANKS)
+                .try_into()
+                .expect("Too many ranks?"),
+        )
     }
 }
 
@@ -50,8 +68,23 @@ pub fn deck(j: WithOrWithoutJokers) -> Vec<Card> {
     (0..limit).map(Card).collect()
 }
 
-#[derive(Clone, Copy)]
+fn shuffle(cards: &mut Vec<Card>) {
+    cards.shuffle(&mut rand::thread_rng());
+}
+#[must_use]
+fn shuffled(mut cards: Vec<Card>) -> Vec<Card> {
+    shuffle(&mut cards);
+    cards
+}
+
+#[derive(Clone, Copy, Debug)]
 pub struct PathLength(Rank);
+impl PathLength {
+    #[must_use]
+    pub fn random() -> Self {
+        Self(Rank::random())
+    }
+}
 
 #[derive(Clone, Copy, Default)]
 pub struct PathLengthInfo(u16);
@@ -93,6 +126,13 @@ impl Discard {
     pub fn discard(&mut self, card: Card) {
         self.cards.push(card);
     }
+    #[must_use]
+    pub fn top(&self) -> Option<&Card> {
+        self.cards.last()
+    }
+    fn len(&self) -> usize {
+        self.cards.len()
+    }
 }
 
 pub struct Library {
@@ -108,19 +148,20 @@ impl Library {
             if let Some(top_discard) = discard.cards.pop() {
                 std::mem::swap(&mut self.cards, &mut discard.cards);
                 discard.discard(top_discard);
-                // TODO: Shuffle
+                shuffle(&mut self.cards);
             }
         }
         self.cards.pop()
     }
+    fn len(&self) -> usize {
+        self.cards.len()
+    }
 }
 
-#[cfg(test)]
-#[derive(Default)]
-struct Hand {
+#[derive(Debug, Default)]
+pub struct Hand {
     cards: Vec<Card>,
 }
-#[cfg(test)]
 impl Hand {
     fn add(&mut self, card: Card) {
         self.cards.push(card);
@@ -133,6 +174,260 @@ impl Hand {
             .ok_or("That card is not in your hand")?;
         self.cards.swap_remove(i);
         Ok(())
+    }
+    fn len(&self) -> usize {
+        self.cards.len()
+    }
+    #[cfg(test)]
+    fn random(&self) -> Option<&Card> {
+        self.cards.choose(&mut rand::thread_rng())
+    }
+}
+
+#[derive(Copy, Clone)]
+pub struct PlayerIndex(usize);
+impl PlayerIndex {
+    fn next(self, num_players: usize) -> Self {
+        Self((self.0 + 1) % num_players)
+    }
+}
+
+#[derive(Copy, Clone, Debug)]
+pub enum Play {
+    Play(Card),
+    Draw,
+}
+
+#[derive(Eq, PartialEq)]
+pub enum Phase {
+    Play,
+    Momentum,
+}
+
+pub enum GameOutcome {
+    Loss,
+    Win,
+}
+
+pub enum PlayOutcome {
+    Continue,
+    End(GameOutcome),
+}
+
+pub struct Game {
+    mad_science_tokens: i8,
+    progress: [i8; NUM_SUITS],
+    path_lengths: [PathLength; NUM_SUITS],
+    path_length_info: [PathLengthInfo; NUM_SUITS],
+    library: Library,
+    discard: Discard,
+    hands: Vec<Hand>,
+    turn: PlayerIndex,
+    phase: Phase,
+}
+impl Game {
+    pub fn add_player(&mut self) {
+        self.hands.push(Hand::default());
+        for _ in 0..STARTING_CARDS {
+            self.draw_for_player(PlayerIndex(self.hands.len() - 1));
+        }
+    }
+    /// # Errors
+    ///
+    /// Will return `Err` on invalid plays, like trying to draw during Play phase,
+    /// or trying to play a card that's not in your hand.
+    pub fn play(&mut self, play: Play) -> Result<PlayOutcome, &'static str> {
+        match play {
+            Play::Play(card) => self.play_card(card),
+            Play::Draw => self.draw_for_momentum(),
+        }
+    }
+
+    #[must_use]
+    pub fn current_player_hand(&self) -> &Hand {
+        &self.hands[self.turn.0]
+    }
+    fn player_hand_mut(&mut self, pi: PlayerIndex) -> &mut Hand {
+        &mut self.hands[pi.0]
+    }
+    fn current_player_hand_mut(&mut self) -> &mut Hand {
+        self.player_hand_mut(self.turn)
+    }
+
+    fn play_card(&mut self, card: Card) -> Result<PlayOutcome, &'static str> {
+        let momentum = self.apply_card(card)?;
+        if self.phase == Phase::Play && momentum {
+            self.phase = Phase::Momentum;
+            Ok(PlayOutcome::Continue)
+        } else {
+            Ok(self.end_of_turn())
+        }
+    }
+    fn draw_for_momentum(&mut self) -> Result<PlayOutcome, &'static str> {
+        if self.phase != Phase::Momentum {
+            return Err("You don't have momentum");
+        }
+        self.draw_for_player(self.turn);
+        Ok(self.end_of_turn())
+    }
+
+    fn draw_for_player(&mut self, pi: PlayerIndex) {
+        loop {
+            if let Some(card) = self.library.draw(&mut self.discard) {
+                if card.is_joker() {
+                    self.remove_mad_science_token();
+                    self.discard.discard(card);
+                } else {
+                    self.player_hand_mut(pi).add(card);
+                    break;
+                }
+            } else {
+                println!("Library ran out of cards");
+            }
+        }
+    }
+    fn remove_mad_science_token(&mut self) {
+        loop {
+            self.mad_science_tokens -= 1;
+            if self.mad_science_tokens != 0 {
+                break;
+            }
+        }
+    }
+    fn make_progress(&mut self, card: Card) {
+        let rank = card.rank().expect("Can't play jokers").0;
+        if rank < 6 {
+            let roll = rand::thread_rng().gen_range(1..=6);
+            if roll > rank {
+                self.remove_mad_science_token();
+            }
+        }
+        self.progress[usize::from(card.suit().expect("Can't play jokers").0)] += 1;
+    }
+    fn forecast(&mut self, card: Card) {
+        let suit = usize::from(card.suit().expect("Can't play jokers").0);
+        self.path_length_info[suit].reveal_random(self.path_lengths[suit]);
+    }
+    // Returns whether or not this play grants momentum
+    fn apply_card(&mut self, card: Card) -> Result<bool, &'static str> {
+        self.current_player_hand_mut().remove(card)?;
+        if card.rank().expect("Can't play jokers").is_face() {
+            self.forecast(card);
+        } else {
+            self.make_progress(card);
+        }
+        let suits_match = self
+            .discard
+            .top()
+            .map_or(false, |dis| dis.suit() == card.suit());
+        self.discard.discard(card);
+        Ok(suits_match)
+    }
+    fn valid(&self) -> bool {
+        108 == (self.library.len()
+            + self.discard.len()
+            + self.hands.iter().map(Hand::len).sum::<usize>())
+    }
+    fn roll_mad_science(&mut self) -> PlayOutcome {
+        let mut tokens = std::iter::from_fn(|| Some(rand::thread_rng().gen_bool(0.5)))
+            .take(usize::try_from(self.mad_science_tokens.abs()).expect("wat?"));
+        let keep_going = if self.mad_science_tokens > 0 {
+            tokens.any(|t| !t)
+        } else {
+            tokens.all(|t| !t)
+        };
+        if keep_going {
+            PlayOutcome::Continue
+        } else {
+            PlayOutcome::End(self.final_score())
+        }
+    }
+    fn final_score(&self) -> GameOutcome {
+        if self
+            .progress
+            .iter()
+            .zip(self.path_lengths.iter())
+            .any(|(&prog, len)| prog >= len.0 .0.try_into().expect("wat?"))
+        {
+            GameOutcome::Win
+        } else {
+            GameOutcome::Loss
+        }
+    }
+    fn end_of_turn(&mut self) -> PlayOutcome {
+        assert!(self.valid());
+        self.phase = Phase::Play;
+        self.turn = self.turn.next(self.hands.len());
+        if self.turn.0 == 0 {
+            if let PlayOutcome::End(game_outcome) = self.roll_mad_science() {
+                return PlayOutcome::End(game_outcome);
+            }
+        }
+        self.draw_for_player(self.turn);
+        assert!(self.valid());
+        PlayOutcome::Continue
+    }
+}
+impl Default for Game {
+    fn default() -> Self {
+        Self {
+            mad_science_tokens: STARTING_MAD_SCIENCE_TOKENS,
+            progress: [STARTING_PROGRESS; NUM_SUITS],
+            path_lengths: std::iter::from_fn(|| Some(PathLength::random()))
+                .take(NUM_SUITS)
+                .collect::<Vec<_>>()
+                .try_into()
+                .expect("wat?"),
+            path_length_info: [PathLengthInfo::default(); NUM_SUITS],
+            library: Library::new(shuffled(
+                [
+                    deck(WithOrWithoutJokers::WithJokers),
+                    deck(WithOrWithoutJokers::WithJokers),
+                ]
+                .concat(),
+            )),
+            discard: Discard::default(),
+            hands: vec![],
+            turn: PlayerIndex(0),
+            phase: Phase::Play,
+        }
+    }
+}
+
+pub struct Player(Box<dyn FnMut(&Game) -> Play>);
+
+#[cfg(test)]
+fn random_player(game: &Game) -> Play {
+    match game.phase {
+        Phase::Play => Play::Play(
+            *game
+                .current_player_hand()
+                .random()
+                .expect("I always have a card to play because I just drew one"),
+        ),
+        Phase::Momentum => {
+            if rand::thread_rng().gen_bool(0.5) {
+                Play::Draw
+            } else {
+                match game.current_player_hand().random() {
+                    Some(card) => Play::Play(*card),
+                    None => Play::Draw,
+                }
+            }
+        }
+    }
+}
+
+/// # Errors
+///
+/// Will return `Err` on invalid plays, like trying to draw during Play phase,
+/// or trying to play a card that's not in your hand.
+pub fn play(mut game: Game, mut players: Vec<Player>) -> Result<GameOutcome, &'static str> {
+    game.draw_for_player(game.turn);
+    loop {
+        if let PlayOutcome::End(game_outcome) = game.play(players[game.turn.0].0(&game))? {
+            return Ok(game_outcome);
+        }
     }
 }
 
@@ -191,5 +486,12 @@ mod tests {
         assert!(h.remove(Card(3)).is_err());
         assert!(h.remove(Card(4)).is_ok());
         assert!(h.remove(Card(4)).is_err());
+    }
+
+    #[test]
+    fn test_game() {
+        let mut game = Game::default();
+        game.add_player();
+        assert!(play(game, vec![Player(Box::new(random_player))]).is_ok());
     }
 }
