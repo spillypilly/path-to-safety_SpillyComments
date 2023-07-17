@@ -9,5 +9,5 @@ repository = "https://git.scottworley.com/pluta-lesnura"
 
 
 [dependencies]
-clap = "4.3.14"
+clap = { version = "4.3.14", features = ["derive"] }
 rand = "0.8.5"
