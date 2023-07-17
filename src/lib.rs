@@ -17,7 +17,7 @@ impl Rank {
 #[derive(Clone, Copy, Eq, PartialEq)]
 pub struct Suit(u8);
 
-#[derive(Clone, Copy, Eq, PartialEq)]
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct Card(u8);
 impl Card {
     #[must_use]
@@ -85,6 +85,36 @@ impl PathLengthInfo {
     }
 }
 
+#[derive(Default)]
+pub struct Discard {
+    cards: Vec<Card>,
+}
+impl Discard {
+    pub fn discard(&mut self, card: Card) {
+        self.cards.push(card);
+    }
+}
+
+pub struct Library {
+    cards: Vec<Card>,
+}
+impl Library {
+    #[must_use]
+    pub fn new(cards: Vec<Card>) -> Self {
+        Self { cards }
+    }
+    pub fn draw(&mut self, discard: &mut Discard) -> Option<Card> {
+        if self.cards.is_empty() {
+            if let Some(top_discard) = discard.cards.pop() {
+                std::mem::swap(&mut self.cards, &mut discard.cards);
+                discard.discard(top_discard);
+                // TODO: Shuffle
+            }
+        }
+        self.cards.pop()
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -119,5 +149,16 @@ mod tests {
             .sum();
         assert_eq!(rank_sum, 364);
         let _dj = deck(WithJokers);
+    }
+
+    #[test]
+    fn test_library() {
+        let mut lib = Library::new(vec![Card(7)]);
+        let mut dis = Discard::default();
+        dis.discard(Card(8));
+        dis.discard(Card(9));
+        assert_eq!(lib.draw(&mut dis), Some(Card(7)));
+        assert_eq!(lib.draw(&mut dis), Some(Card(8)));
+        assert_eq!(lib.draw(&mut dis), None);
     }
 }
