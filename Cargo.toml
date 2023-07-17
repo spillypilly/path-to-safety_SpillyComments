@@ -9,4 +9,5 @@ repository = "https://git.scottworley.com/pluta-lesnura"
 
 
 [dependencies]
+clap = "4.3.14"
 rand = "0.8.5"
