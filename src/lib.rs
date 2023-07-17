@@ -116,6 +116,27 @@ impl Library {
 }
 
 #[cfg(test)]
+#[derive(Default)]
+struct Hand {
+    cards: Vec<Card>,
+}
+#[cfg(test)]
+impl Hand {
+    fn add(&mut self, card: Card) {
+        self.cards.push(card);
+    }
+    fn remove(&mut self, card: Card) -> Result<(), &'static str> {
+        let i = self
+            .cards
+            .iter()
+            .position(|&e| e == card)
+            .ok_or("That card is not in your hand")?;
+        self.cards.swap_remove(i);
+        Ok(())
+    }
+}
+
+#[cfg(test)]
 mod tests {
     use super::*;
 
@@ -160,5 +181,15 @@ mod tests {
         assert_eq!(lib.draw(&mut dis), Some(Card(7)));
         assert_eq!(lib.draw(&mut dis), Some(Card(8)));
         assert_eq!(lib.draw(&mut dis), None);
+    }
+
+    #[test]
+    fn test_hand() {
+        let mut h = Hand::default();
+        assert!(h.remove(Card(4)).is_err());
+        h.add(Card(4));
+        assert!(h.remove(Card(3)).is_err());
+        assert!(h.remove(Card(4)).is_ok());
+        assert!(h.remove(Card(4)).is_err());
     }
 }
