@@ -490,8 +490,15 @@ mod tests {
 
     #[test]
     fn test_game() {
-        let mut game = Game::default();
-        game.add_player();
-        assert!(play(game, vec![Player(Box::new(random_player))]).is_ok());
+        for num_players in 1..10 {
+            let players: Vec<_> = std::iter::from_fn(|| Some(Player(Box::new(random_player))))
+                .take(num_players)
+                .collect();
+            let mut game = Game::default();
+            for _ in 0..num_players {
+                game.add_player();
+            }
+            assert!(play(game, players).is_ok());
+        }
     }
 }
