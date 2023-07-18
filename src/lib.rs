@@ -444,15 +444,14 @@ pub fn random_player(draw_chance: f64) -> Player {
 #[must_use]
 pub fn momentum_player(mut fallback: Player) -> Player {
     Player(Box::new(move |game: &Game| -> Play {
-        match (&game.phase, game.discard.top().and_then(Card::suit)) {
-            (Phase::Play, Some(suit)) => {
-                match game.current_player_hand().filter_by_suit(suit).random() {
-                    Some(card) => Play::Play(*card),
-                    _ => fallback.0(game),
+        if game.phase == Phase::Play {
+            if let Some(suit) = game.discard.top().and_then(Card::suit) {
+                if let Some(card) = game.current_player_hand().filter_by_suit(suit).random() {
+                    return Play::Play(*card);
                 }
             }
-            _ => fallback.0(game),
         }
+        fallback.0(game)
     }))
 }
 
