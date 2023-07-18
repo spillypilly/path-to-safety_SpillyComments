@@ -1,11 +1,17 @@
-use clap::{Parser, Subcommand};
-use pluta_lesnura::{play, random_player, Game, Player};
+use clap::{Parser, Subcommand, ValueEnum};
+use pluta_lesnura::{momentum_player, play, random_player, Game, Player};
 
 #[derive(Parser)]
 #[command(author, version, about, long_about = None, arg_required_else_help = true)]
 struct Cli {
     #[command(subcommand)]
     command: Option<Commands>,
+}
+
+#[derive(Clone, Debug, ValueEnum)]
+enum Strategy {
+    Random,
+    Momentum,
 }
 
 #[derive(Subcommand)]
@@ -21,6 +27,9 @@ enum Commands {
         /// How many players?
         #[arg(short = 'p', long)]
         num_players: usize,
+        /// What strategy should players use?
+        #[arg(short = 's', long, value_enum)]
+        strategy: Strategy,
     },
 }
 
@@ -32,12 +41,16 @@ fn main() -> Result<(), &'static str> {
             draw_chance,
             num_games,
             num_players,
+            strategy,
         }) => {
+            let player = || match strategy {
+                Strategy::Random => Player::new(random_player(*draw_chance)),
+                Strategy::Momentum => Player::new(momentum_player(*draw_chance)),
+            };
             for _ in 0..*num_games {
-                let players: Vec<_> =
-                    std::iter::from_fn(|| Some(Player::new(random_player(*draw_chance))))
-                        .take(*num_players)
-                        .collect();
+                let players: Vec<_> = std::iter::from_fn(|| Some(player()))
+                    .take(*num_players)
+                    .collect();
                 let mut game = Game::default();
                 for _ in 0..*num_players {
                     game.add_player();

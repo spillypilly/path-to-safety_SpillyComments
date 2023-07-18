@@ -181,6 +181,17 @@ impl Hand {
     fn random(&self) -> Option<&Card> {
         self.cards.choose(&mut rand::thread_rng())
     }
+    /// Make a new Hand that contains only cards of the requested suit
+    fn filter_by_suit(&self, suit: Suit) -> Self {
+        Self {
+            cards: self
+                .cards
+                .iter()
+                .filter(|c| c.suit().expect("I shouldn't have jokers in my hand") == suit)
+                .copied()
+                .collect(),
+        }
+    }
 }
 
 #[derive(Copy, Clone)]
@@ -424,6 +435,22 @@ pub fn random_player(draw_chance: f64) -> impl FnMut(&Game) -> Play {
                     }
                 }
             }
+        }
+    }
+}
+
+/// When available, make plays that grant momentum.  Otherwise, play randomly.
+pub fn momentum_player(draw_chance: f64) -> impl FnMut(&Game) -> Play {
+    let mut fallback = random_player(draw_chance);
+    move |game: &Game| -> Play {
+        match (&game.phase, game.discard.top().and_then(Card::suit)) {
+            (Phase::Play, Some(suit)) => {
+                match game.current_player_hand().filter_by_suit(suit).random() {
+                    Some(card) => Play::Play(*card),
+                    _ => fallback(game),
+                }
+            }
+            _ => fallback(game),
         }
     }
 }
