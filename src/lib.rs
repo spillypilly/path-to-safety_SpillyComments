@@ -416,8 +416,9 @@ impl Player {
     }
 }
 
-pub fn random_player(draw_chance: f64) -> impl FnMut(&Game) -> Play {
-    move |game: &Game| -> Play {
+#[must_use]
+pub fn random_player(draw_chance: f64) -> Player {
+    Player(Box::new(move |game: &Game| -> Play {
         match game.phase {
             Phase::Play => Play::Play(
                 *game
@@ -436,23 +437,24 @@ pub fn random_player(draw_chance: f64) -> impl FnMut(&Game) -> Play {
                 }
             }
         }
-    }
+    }))
 }
 
 /// When available, make plays that grant momentum.  Otherwise, play randomly.
-pub fn momentum_player(draw_chance: f64) -> impl FnMut(&Game) -> Play {
+#[must_use]
+pub fn momentum_player(draw_chance: f64) -> Player {
     let mut fallback = random_player(draw_chance);
-    move |game: &Game| -> Play {
+    Player(Box::new(move |game: &Game| -> Play {
         match (&game.phase, game.discard.top().and_then(Card::suit)) {
             (Phase::Play, Some(suit)) => {
                 match game.current_player_hand().filter_by_suit(suit).random() {
                     Some(card) => Play::Play(*card),
-                    _ => fallback(game),
+                    _ => fallback.0(game),
                 }
             }
-            _ => fallback(game),
+            _ => fallback.0(game),
         }
-    }
+    }))
 }
 
 /// # Errors
@@ -528,7 +530,7 @@ mod tests {
     #[test]
     fn test_game() {
         for num_players in 1..10 {
-            let players: Vec<_> = std::iter::from_fn(|| Some(Player::new(random_player(0.5))))
+            let players: Vec<_> = std::iter::from_fn(|| Some(random_player(0.5)))
                 .take(num_players)
                 .collect();
             let mut game = Game::default();
