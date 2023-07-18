@@ -440,10 +440,9 @@ pub fn random_player(draw_chance: f64) -> Player {
     }))
 }
 
-/// When available, make plays that grant momentum.  Otherwise, play randomly.
+/// When available, make plays that grant momentum.
 #[must_use]
-pub fn momentum_player(draw_chance: f64) -> Player {
-    let mut fallback = random_player(draw_chance);
+pub fn momentum_player(mut fallback: Player) -> Player {
     Player(Box::new(move |game: &Game| -> Play {
         match (&game.phase, game.discard.top().and_then(Card::suit)) {
             (Phase::Play, Some(suit)) => {

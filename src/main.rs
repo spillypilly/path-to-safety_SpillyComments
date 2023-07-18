@@ -45,7 +45,7 @@ fn main() -> Result<(), &'static str> {
         }) => {
             let player = || match strategy {
                 Strategy::Random => random_player(*draw_chance),
-                Strategy::Momentum => momentum_player(*draw_chance),
+                Strategy::Momentum => momentum_player(random_player(*draw_chance)),
             };
             for _ in 0..*num_games {
                 let players: Vec<_> = std::iter::from_fn(|| Some(player()))
