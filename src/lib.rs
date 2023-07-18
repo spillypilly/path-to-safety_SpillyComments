@@ -405,22 +405,23 @@ impl Player {
     }
 }
 
-#[must_use]
-pub fn random_player(game: &Game) -> Play {
-    match game.phase {
-        Phase::Play => Play::Play(
-            *game
-                .current_player_hand()
-                .random()
-                .expect("I always have a card to play because I just drew one"),
-        ),
-        Phase::Momentum => {
-            if rand::thread_rng().gen_bool(0.5) {
-                Play::Draw
-            } else {
-                match game.current_player_hand().random() {
-                    Some(card) => Play::Play(*card),
-                    None => Play::Draw,
+pub fn random_player(draw_chance: f64) -> impl FnMut(&Game) -> Play {
+    move |game: &Game| -> Play {
+        match game.phase {
+            Phase::Play => Play::Play(
+                *game
+                    .current_player_hand()
+                    .random()
+                    .expect("I always have a card to play because I just drew one"),
+            ),
+            Phase::Momentum => {
+                if rand::thread_rng().gen_bool(draw_chance) {
+                    Play::Draw
+                } else {
+                    match game.current_player_hand().random() {
+                        Some(card) => Play::Play(*card),
+                        None => Play::Draw,
+                    }
                 }
             }
         }
@@ -500,7 +501,7 @@ mod tests {
     #[test]
     fn test_game() {
         for num_players in 1..10 {
-            let players: Vec<_> = std::iter::from_fn(|| Some(Player::new(random_player)))
+            let players: Vec<_> = std::iter::from_fn(|| Some(Player::new(random_player(0.5))))
                 .take(num_players)
                 .collect();
             let mut game = Game::default();
