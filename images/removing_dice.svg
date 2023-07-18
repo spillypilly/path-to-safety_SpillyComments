@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" viewBox="0 0 19 19">
+	<text xml:space="preserve" x="101.966" y="39.7" style="font-style:normal;font-weight:400;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000;fill-opacity:1;stroke:none;stroke-width:.264583" transform="translate(-96.58 -28.2)">
+		<tspan x="101.966" y="39.7" style="font-size:16.9333px;fill:#000;fill-opacity:1;stroke-width:.264583">×</tspan>
+	</text>
+	<text xml:space="preserve" x="96.711" y="38.828" style="font-style:normal;font-weight:400;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000;fill-opacity:1;stroke:none;stroke-width:.264583" transform="translate(-96.58 -28.2)">
+		<tspan x="96.711" y="38.828" style="stroke-width:.264583">1</tspan>
+	</text>
+	<text xml:space="preserve" x="97.163" y="44.973" style="font-style:normal;font-weight:400;font-size:4.58611px;line-height:1.25;font-family:sans-serif;letter-spacing:-.264583px;fill:#000;fill-opacity:1;stroke:none;stroke-width:.264583" transform="translate(-96.58 -28.2)">
+		<tspan x="97.163" y="44.973" style="font-size:4.58611px;stroke-width:.264583">continue</tspan>
+	</text>
+</svg>

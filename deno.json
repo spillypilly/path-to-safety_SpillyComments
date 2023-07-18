@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "build": "./build.ts"
+  },
+  "fmt": {
+    "lineWidth": 140
+  }
+}
