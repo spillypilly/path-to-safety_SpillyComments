@@ -529,7 +529,7 @@ mod tests {
     #[test]
     fn test_game() {
         for num_players in 1..10 {
-            let players: Vec<_> = std::iter::from_fn(|| Some(random_player(0.5)))
+            let players: Vec<_> = std::iter::from_fn(|| Some(momentum_player(random_player(0.5))))
                 .take(num_players)
                 .collect();
             let mut game = Game::default();
