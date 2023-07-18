@@ -347,7 +347,7 @@ impl Game {
             .progress
             .iter()
             .zip(self.path_lengths.iter())
-            .any(|(&prog, len)| prog >= len.0 .0.try_into().expect("wat?"))
+            .any(|(&prog, len)| prog >= len.0.value().try_into().expect("wat?"))
         {
             GameOutcome::Win
         } else {
