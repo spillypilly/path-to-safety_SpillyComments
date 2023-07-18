@@ -178,7 +178,6 @@ impl Hand {
     fn len(&self) -> usize {
         self.cards.len()
     }
-    #[cfg(test)]
     fn random(&self) -> Option<&Card> {
         self.cards.choose(&mut rand::thread_rng())
     }
@@ -204,6 +203,7 @@ pub enum Phase {
     Momentum,
 }
 
+#[derive(Debug)]
 pub enum GameOutcome {
     Loss,
     Win,
@@ -395,9 +395,18 @@ impl Default for Game {
 }
 
 pub struct Player(Box<dyn FnMut(&Game) -> Play>);
+impl Player {
+    #[must_use]
+    pub fn new<T>(f: T) -> Self
+    where
+        T: FnMut(&Game) -> Play + 'static,
+    {
+        Self(Box::new(f))
+    }
+}
 
-#[cfg(test)]
-fn random_player(game: &Game) -> Play {
+#[must_use]
+pub fn random_player(game: &Game) -> Play {
     match game.phase {
         Phase::Play => Play::Play(
             *game
@@ -491,7 +500,7 @@ mod tests {
     #[test]
     fn test_game() {
         for num_players in 1..10 {
-            let players: Vec<_> = std::iter::from_fn(|| Some(Player(Box::new(random_player))))
+            let players: Vec<_> = std::iter::from_fn(|| Some(Player::new(random_player)))
                 .take(num_players)
                 .collect();
             let mut game = Game::default();
