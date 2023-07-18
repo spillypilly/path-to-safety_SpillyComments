@@ -1,5 +1,5 @@
 use clap::{Parser, Subcommand, ValueEnum};
-use pluta_lesnura::{momentum_player, play, random_player, Game};
+use pluta_lesnura::{coordinating_player, momentum_player, play, random_player, Game};
 
 #[derive(Parser)]
 #[command(author, version, about, long_about = None, arg_required_else_help = true)]
@@ -12,6 +12,7 @@ struct Cli {
 enum Strategy {
     Random,
     Momentum,
+    Coordinate,
 }
 
 #[derive(Subcommand)]
@@ -46,6 +47,9 @@ fn main() -> Result<(), &'static str> {
             let player = || match strategy {
                 Strategy::Random => random_player(*draw_chance),
                 Strategy::Momentum => momentum_player(random_player(*draw_chance)),
+                Strategy::Coordinate => {
+                    momentum_player(coordinating_player(random_player(*draw_chance)))
+                }
             };
             for _ in 0..*num_games {
                 let players: Vec<_> = std::iter::from_fn(|| Some(player()))

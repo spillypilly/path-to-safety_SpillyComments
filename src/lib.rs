@@ -181,13 +181,24 @@ impl Hand {
     fn random(&self) -> Option<&Card> {
         self.cards.choose(&mut rand::thread_rng())
     }
+    /// Which suits are in this Hand?
+    fn suits(&self) -> Vec<Suit> {
+        self.cards
+            .iter()
+            .map(|c| c.suit().expect("I shouldn't have jokers in my hand"))
+            .collect()
+    }
     /// Make a new Hand that contains only cards of the requested suit
     fn filter_by_suit(&self, suit: Suit) -> Self {
+        self.filter_by_suits(&[suit])
+    }
+    /// Make a new Hand that contains only cards of the requested suits
+    fn filter_by_suits(&self, suits: &[Suit]) -> Self {
         Self {
             cards: self
                 .cards
                 .iter()
-                .filter(|c| c.suit().expect("I shouldn't have jokers in my hand") == suit)
+                .filter(|c| suits.contains(&c.suit().expect("I shouldn't have jokers in my hand")))
                 .copied()
                 .collect(),
         }
@@ -258,9 +269,15 @@ impl Game {
     pub fn current_player_hand(&self) -> &Hand {
         &self.hands[self.turn.0]
     }
+    #[must_use]
+    pub fn next_player_hand(&self) -> &Hand {
+        &self.hands[self.turn.next(self.hands.len()).0]
+    }
+    #[must_use]
     fn player_hand_mut(&mut self, pi: PlayerIndex) -> &mut Hand {
         &mut self.hands[pi.0]
     }
+    #[must_use]
     fn current_player_hand_mut(&mut self) -> &mut Hand {
         self.player_hand_mut(self.turn)
     }
@@ -455,6 +472,21 @@ pub fn momentum_player(mut fallback: Player) -> Player {
     }))
 }
 
+/// Try to coordinate to give the next player a momentum opportunity.
+#[must_use]
+pub fn coordinating_player(mut fallback: Player) -> Player {
+    Player(Box::new(move |game: &Game| -> Play {
+        if let Some(card) = game
+            .current_player_hand()
+            .filter_by_suits(&game.next_player_hand().suits())
+            .random()
+        {
+            return Play::Play(*card);
+        }
+        fallback.0(game)
+    }))
+}
+
 /// # Errors
 ///
 /// Will return `Err` on invalid plays, like trying to draw during Play phase,
@@ -528,9 +560,11 @@ mod tests {
     #[test]
     fn test_game() {
         for num_players in 1..10 {
-            let players: Vec<_> = std::iter::from_fn(|| Some(momentum_player(random_player(0.5))))
-                .take(num_players)
-                .collect();
+            let players: Vec<_> = std::iter::from_fn(|| {
+                Some(momentum_player(coordinating_player(random_player(0.5))))
+            })
+            .take(num_players)
+            .collect();
             let mut game = Game::default();
             for _ in 0..num_players {
                 game.add_player();
