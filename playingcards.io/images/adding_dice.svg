@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" viewBox="0 0 19 19">
+	<path d="M96.579 28.201h19v19h-19z" style="fill:#f68c8c;fill-opacity:1;stroke-width:1.414;stroke-linecap:round" transform="translate(-96.58 -28.2)"/>
+	<text xml:space="preserve" x="101.967" y="40.171" style="font-style:normal;font-weight:400;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000;fill-opacity:1;stroke:none;stroke-width:.264583" transform="translate(-96.58 -28.2)">
+		<tspan x="101.967" y="40.171" style="font-size:16.9333px;fill:#000;fill-opacity:1;stroke-width:.264583">✓</tspan>
+	</text>
+	<text xml:space="preserve" x="97.46" y="38.317" style="font-style:normal;font-weight:400;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000;fill-opacity:1;stroke:none;stroke-width:.264583" transform="translate(-96.58 -28.2)">
+		<tspan x="97.46" y="38.317" style="stroke-width:.264583">1</tspan>
+	</text>
+	<text xml:space="preserve" x="98.037" y="44.968" style="font-style:normal;font-weight:400;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#000;fill-opacity:1;stroke:none;stroke-width:.264583" transform="translate(-96.58 -28.2)">
+		<tspan x="98.037" y="44.968" style="font-size:8.46667px;stroke-width:.264583">end</tspan>
+	</text>
+</svg>

@@ -1,0 +1,4423 @@
+[
+  {
+    "cardType": "clubs-3",
+    "deck": "60564e56-f842-4d57-af22-6a893fa176ef",
+    "dragging": null,
+    "faceup": false,
+    "id": "c0eb6a58-9ee5-4eaf-b01c-b744d78afa00",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "761ffa01-ee4a-4e2e-ad29-63282dd544e1",
+    "type": "card",
+    "x": 1475,
+    "y": 642,
+    "z": 31313
+  },
+  {
+    "cardType": "diamonds-k",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "4df1d44f-c14b-4455-8e5b-11d77f959ac1",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31666
+  },
+  {
+    "cardType": "clubs-3",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "5afe2e6c-f9bb-4f9f-ba72-34bb9da90e7e",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31604
+  },
+  {
+    "deck": "f53bff34-9257-432f-91b8-1db2c14c84d2",
+    "diceValue": "type-0abd20a9-6a5c-41ac-87e9-c9fef092e929",
+    "dragging": null,
+    "id": "49bd8bf4-0822-4173-b201-232c520b682f",
+    "lastRoll": 1689718884807,
+    "owner": null,
+    "parent": "b3d776b9-f6fd-4d51-8420-9d968aef2df3",
+    "type": "dice",
+    "x": 542.15,
+    "y": 314.57,
+    "z": 28404
+  },
+  {
+    "autoShuffle": true,
+    "backTemplate": {
+      "includeBorder": "heavy",
+      "includeRadius": true,
+      "objects": [
+        {
+          "color": "#840202",
+          "h": 160,
+          "type": "image",
+          "value": "/img/cardbacks/cardback-red.svg",
+          "valueType": "static",
+          "w": 103,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    "cardTypes": {
+      "diamonds-10": {
+        "image": "/img/cards-french/diamonds-10.svg",
+        "label": "10 of Diamonds"
+      },
+      "diamonds-2": {
+        "image": "/img/cards-french/diamonds-2.svg",
+        "label": "2 of Diamonds"
+      },
+      "diamonds-3": {
+        "image": "/img/cards-french/diamonds-3.svg",
+        "label": "3 of Diamonds"
+      },
+      "diamonds-4": {
+        "image": "/img/cards-french/diamonds-4.svg",
+        "label": "4 of Diamonds"
+      },
+      "diamonds-5": {
+        "image": "/img/cards-french/diamonds-5.svg",
+        "label": "5 of Diamonds"
+      },
+      "diamonds-6": {
+        "image": "/img/cards-french/diamonds-6.svg",
+        "label": "6 of Diamonds"
+      },
+      "diamonds-7": {
+        "image": "/img/cards-french/diamonds-7.svg",
+        "label": "7 of Diamonds"
+      },
+      "diamonds-8": {
+        "image": "/img/cards-french/diamonds-8.svg",
+        "label": "8 of Diamonds"
+      },
+      "diamonds-9": {
+        "image": "/img/cards-french/diamonds-9.svg",
+        "label": "9 of Diamonds"
+      },
+      "diamonds-a": {
+        "image": "/img/cards-french/diamonds-a.svg",
+        "label": "A of Diamonds"
+      },
+      "diamonds-j": {
+        "image": "/img/cards-french/diamonds-j.svg",
+        "label": "J of Diamonds"
+      },
+      "diamonds-k": {
+        "image": "/img/cards-french/diamonds-k.svg",
+        "label": "K of Diamonds"
+      },
+      "diamonds-q": {
+        "image": "/img/cards-french/diamonds-q.svg",
+        "label": "Q of Diamonds"
+      }
+    },
+    "dragging": null,
+    "faceTemplate": {
+      "includeBorder": "heavy",
+      "includeRadius": true,
+      "objects": [
+        {
+          "color": "white",
+          "h": 160,
+          "type": "image",
+          "value": "image",
+          "valueType": "dynamic",
+          "w": 103,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    "id": "7dd2b86a-5141-4239-ac40-ae7b719fd279",
+    "parent": "13f41ce4-c7c9-479a-97b6-2c0d4ed64052",
+    "showUnflipped": true,
+    "type": "cardDeck",
+    "x": 1482.8,
+    "y": 475.16,
+    "z": 26158
+  },
+  {
+    "cardType": "diamonds-j",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "9e38441e-c267-488b-8102-bfdd698249ff",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31611
+  },
+  {
+    "cardType": "diamonds-5",
+    "deck": "7dd2b86a-5141-4239-ac40-ae7b719fd279",
+    "dragging": null,
+    "faceup": false,
+    "id": "0b53f868-2cd8-4ce1-b66a-38a7c4865088",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "13f41ce4-c7c9-479a-97b6-2c0d4ed64052",
+    "type": "card",
+    "x": 1474,
+    "y": 438,
+    "z": 31301
+  },
+  {
+    "cardType": "hearts-4",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "60a57623-2e0b-4b55-9322-9326ef691654",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31655
+  },
+  {
+    "cardType": "hearts-2",
+    "deck": "3088112e-a503-4747-9277-b8320e8b9615",
+    "dragging": null,
+    "faceup": false,
+    "id": "8b2969c7-da60-4400-8c4f-e154f29bb2b3",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "3cbde22b-4ab2-408b-99c2-f3a7d8671c67",
+    "type": "card",
+    "x": 1477,
+    "y": 48,
+    "z": 31330
+  },
+  {
+    "cardType": "hearts-8",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "0bd26cf7-3014-49e5-877c-6b3375f4df76",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31636
+  },
+  {
+    "cardType": "clubs-4",
+    "deck": "60564e56-f842-4d57-af22-6a893fa176ef",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "32e9bacf-5243-40c2-b11d-dffaad32df66",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "761ffa01-ee4a-4e2e-ad29-63282dd544e1",
+    "type": "card",
+    "x": 1475,
+    "y": 642,
+    "z": 32357
+  },
+  {
+    "cardType": "spades-2",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "c8b10d54-a0dd-4c4a-9d0a-3fc1f4da3260",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31659
+  },
+  {
+    "cardType": "clubs-2",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "65d3e44c-4b69-4caf-9a4a-52e819872f0a",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31708
+  },
+  {
+    "cardType": "hearts-3",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "a9bb0f11-84ad-4172-80b1-ab4922577832",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31646
+  },
+  {
+    "cardType": "clubs-k",
+    "deck": "60564e56-f842-4d57-af22-6a893fa176ef",
+    "dragging": null,
+    "faceup": false,
+    "id": "60d22f2c-adb9-47ce-a96f-97a61b37571c",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "761ffa01-ee4a-4e2e-ad29-63282dd544e1",
+    "type": "card",
+    "x": 1475,
+    "y": 642,
+    "z": 31315
+  },
+  {
+    "cardType": "spades-j",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "d5762547-9f3e-42a9-b7fe-e9837972985d",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31674
+  },
+  {
+    "cardType": "spades-4",
+    "deck": "1991c096-d4cc-4dda-bab4-72b597f8c4d7",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "8e82d7b7-b688-47ae-a94b-6c2420ed19eb",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "ed822044-7c0f-41bd-951f-6146f87c1b89",
+    "type": "card",
+    "x": 1474,
+    "y": 241,
+    "z": 32642
+  },
+  {
+    "dragging": null,
+    "hasShuffleButton": false,
+    "hideStackTab": true,
+    "id": "761ffa01-ee4a-4e2e-ad29-63282dd544e1",
+    "type": "cardPile",
+    "x": 1471.53,
+    "y": 638.41,
+    "z": 30738
+  },
+  {
+    "cardType": "spades-4",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "c6e6b733-bfa4-4637-911a-b4cefb515331",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31625
+  },
+  {
+    "dragging": null,
+    "id": "eee6303d-a46b-4900-ba94-438694b78f88",
+    "seatColor": "orange",
+    "seatedUser": null,
+    "seatIndex": 2,
+    "seatInitials": null,
+    "seatLabel": null,
+    "type": "seat",
+    "x": 187.58,
+    "y": 757.86,
+    "z": 24416
+  },
+  {
+    "cardType": "spades-k",
+    "deck": "1991c096-d4cc-4dda-bab4-72b597f8c4d7",
+    "dragging": null,
+    "faceup": false,
+    "id": "3ea16622-62c3-48e0-88b3-1484916db6c3",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "ed822044-7c0f-41bd-951f-6146f87c1b89",
+    "type": "card",
+    "x": 1474,
+    "y": 241,
+    "z": 31341
+  },
+  {
+    "cardType": "diamonds-4",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "6512f6ab-16cd-4b11-b1fa-c3edb536de91",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31627
+  },
+  {
+    "cardType": "hearts-a",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "7238d3d3-02ce-4ef4-9756-1ce503c15612",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31653
+  },
+  {
+    "autoShuffle": true,
+    "backTemplate": {
+      "includeBorder": "heavy",
+      "includeRadius": true,
+      "objects": [
+        {
+          "color": "#840202",
+          "h": 160,
+          "type": "image",
+          "value": "/img/cardbacks/cardback-red.svg",
+          "valueType": "static",
+          "w": 103,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    "cardTypes": {
+      "clubs-10": {
+        "image": "/img/cards-french/clubs-10.svg",
+        "label": "10 of Clubs"
+      },
+      "clubs-2": {
+        "image": "/img/cards-french/clubs-2.svg",
+        "label": "2 of Clubs"
+      },
+      "clubs-3": {
+        "image": "/img/cards-french/clubs-3.svg",
+        "label": "3 of Clubs"
+      },
+      "clubs-4": {
+        "image": "/img/cards-french/clubs-4.svg",
+        "label": "4 of Clubs"
+      },
+      "clubs-5": {
+        "image": "/img/cards-french/clubs-5.svg",
+        "label": "5 of Clubs"
+      },
+      "clubs-6": {
+        "image": "/img/cards-french/clubs-6.svg",
+        "label": "6 of Clubs"
+      },
+      "clubs-7": {
+        "image": "/img/cards-french/clubs-7.svg",
+        "label": "7 of Clubs"
+      },
+      "clubs-8": {
+        "image": "/img/cards-french/clubs-8.svg",
+        "label": "8 of Clubs"
+      },
+      "clubs-9": {
+        "image": "/img/cards-french/clubs-9.svg",
+        "label": "9 of Clubs"
+      },
+      "clubs-a": {
+        "image": "/img/cards-french/clubs-a.svg",
+        "label": "A of Clubs"
+      },
+      "clubs-j": {
+        "image": "/img/cards-french/clubs-j.svg",
+        "label": "J of Clubs"
+      },
+      "clubs-k": {
+        "image": "/img/cards-french/clubs-k.svg",
+        "label": "K of Clubs"
+      },
+      "clubs-q": {
+        "image": "/img/cards-french/clubs-q.svg",
+        "label": "Q of Clubs"
+      },
+      "diamonds-10": {
+        "image": "/img/cards-french/diamonds-10.svg",
+        "label": "10 of Diamonds"
+      },
+      "diamonds-2": {
+        "image": "/img/cards-french/diamonds-2.svg",
+        "label": "2 of Diamonds"
+      },
+      "diamonds-3": {
+        "image": "/img/cards-french/diamonds-3.svg",
+        "label": "3 of Diamonds"
+      },
+      "diamonds-4": {
+        "image": "/img/cards-french/diamonds-4.svg",
+        "label": "4 of Diamonds"
+      },
+      "diamonds-5": {
+        "image": "/img/cards-french/diamonds-5.svg",
+        "label": "5 of Diamonds"
+      },
+      "diamonds-6": {
+        "image": "/img/cards-french/diamonds-6.svg",
+        "label": "6 of Diamonds"
+      },
+      "diamonds-7": {
+        "image": "/img/cards-french/diamonds-7.svg",
+        "label": "7 of Diamonds"
+      },
+      "diamonds-8": {
+        "image": "/img/cards-french/diamonds-8.svg",
+        "label": "8 of Diamonds"
+      },
+      "diamonds-9": {
+        "image": "/img/cards-french/diamonds-9.svg",
+        "label": "9 of Diamonds"
+      },
+      "diamonds-a": {
+        "image": "/img/cards-french/diamonds-a.svg",
+        "label": "A of Diamonds"
+      },
+      "diamonds-j": {
+        "image": "/img/cards-french/diamonds-j.svg",
+        "label": "J of Diamonds"
+      },
+      "diamonds-k": {
+        "image": "/img/cards-french/diamonds-k.svg",
+        "label": "K of Diamonds"
+      },
+      "diamonds-q": {
+        "image": "/img/cards-french/diamonds-q.svg",
+        "label": "Q of Diamonds"
+      },
+      "hearts-10": {
+        "image": "/img/cards-french/hearts-10.svg",
+        "label": "10 of Hearts"
+      },
+      "hearts-2": {
+        "image": "/img/cards-french/hearts-2.svg",
+        "label": "2 of Hearts"
+      },
+      "hearts-3": {
+        "image": "/img/cards-french/hearts-3.svg",
+        "label": "3 of Hearts"
+      },
+      "hearts-4": {
+        "image": "/img/cards-french/hearts-4.svg",
+        "label": "4 of Hearts"
+      },
+      "hearts-5": {
+        "image": "/img/cards-french/hearts-5.svg",
+        "label": "5 of Hearts"
+      },
+      "hearts-6": {
+        "image": "/img/cards-french/hearts-6.svg",
+        "label": "6 of Hearts"
+      },
+      "hearts-7": {
+        "image": "/img/cards-french/hearts-7.svg",
+        "label": "7 of Hearts"
+      },
+      "hearts-8": {
+        "image": "/img/cards-french/hearts-8.svg",
+        "label": "8 of Hearts"
+      },
+      "hearts-9": {
+        "image": "/img/cards-french/hearts-9.svg",
+        "label": "9 of Hearts"
+      },
+      "hearts-a": {
+        "image": "/img/cards-french/hearts-a.svg",
+        "label": "A of Hearts"
+      },
+      "hearts-j": {
+        "image": "/img/cards-french/hearts-j.svg",
+        "label": "J of Hearts"
+      },
+      "hearts-k": {
+        "image": "/img/cards-french/hearts-k.svg",
+        "label": "K of Hearts"
+      },
+      "hearts-q": {
+        "image": "/img/cards-french/hearts-q.svg",
+        "label": "Q of Hearts"
+      },
+      "joker-black": {
+        "image": "/img/cards-french/joker-black.svg",
+        "label": "Black Joker"
+      },
+      "joker-blue": {
+        "image": "/img/cards-french/joker-blue.svg",
+        "label": "Blue Joker"
+      },
+      "joker-red": {
+        "image": "/img/cards-french/joker-red.svg",
+        "label": "Red Joker"
+      },
+      "spades-10": {
+        "image": "/img/cards-french/spades-10.svg",
+        "label": "10 of Spades"
+      },
+      "spades-2": {
+        "image": "/img/cards-french/spades-2.svg",
+        "label": "2 of Spades"
+      },
+      "spades-3": {
+        "image": "/img/cards-french/spades-3.svg",
+        "label": "3 of Spades"
+      },
+      "spades-4": {
+        "image": "/img/cards-french/spades-4.svg",
+        "label": "4 of Spades"
+      },
+      "spades-5": {
+        "image": "/img/cards-french/spades-5.svg",
+        "label": "5 of Spades"
+      },
+      "spades-6": {
+        "image": "/img/cards-french/spades-6.svg",
+        "label": "6 of Spades"
+      },
+      "spades-7": {
+        "image": "/img/cards-french/spades-7.svg",
+        "label": "7 of Spades"
+      },
+      "spades-8": {
+        "image": "/img/cards-french/spades-8.svg",
+        "label": "8 of Spades"
+      },
+      "spades-9": {
+        "image": "/img/cards-french/spades-9.svg",
+        "label": "9 of Spades"
+      },
+      "spades-a": {
+        "image": "/img/cards-french/spades-a.svg",
+        "label": "A of Spades"
+      },
+      "spades-j": {
+        "image": "/img/cards-french/spades-j.svg",
+        "label": "J of Spades"
+      },
+      "spades-k": {
+        "image": "/img/cards-french/spades-k.svg",
+        "label": "K of Spades"
+      },
+      "spades-q": {
+        "image": "/img/cards-french/spades-q.svg",
+        "label": "Q of Spades"
+      }
+    },
+    "dragging": null,
+    "faceTemplate": {
+      "includeBorder": "heavy",
+      "includeRadius": true,
+      "objects": [
+        {
+          "color": "white",
+          "h": 160,
+          "type": "image",
+          "value": "image",
+          "valueType": "dynamic",
+          "w": 103,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    "id": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "onRemoveFromHand": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "showUnflipped": true,
+    "type": "cardDeck",
+    "x": 443.56,
+    "y": 653.1,
+    "z": 30869
+  },
+  {
+    "cardType": "hearts-3",
+    "deck": "3088112e-a503-4747-9277-b8320e8b9615",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": true,
+    "id": "b0a62ba2-bb9a-43b5-b8ac-46feaabc2703",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "3cbde22b-4ab2-408b-99c2-f3a7d8671c67",
+    "type": "card",
+    "x": 1477,
+    "y": 48,
+    "z": 32637
+  },
+  {
+    "cardType": "hearts-6",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "edd8d0d2-938a-4071-a51b-2e8012415f24",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31706
+  },
+  {
+    "cardType": "clubs-2",
+    "deck": "60564e56-f842-4d57-af22-6a893fa176ef",
+    "dragging": null,
+    "faceup": false,
+    "id": "bf018a39-dcc1-4935-97ec-e7c292f8c7de",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "761ffa01-ee4a-4e2e-ad29-63282dd544e1",
+    "type": "card",
+    "x": 1475,
+    "y": 642,
+    "z": 31317
+  },
+  {
+    "cardType": "diamonds-3",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "df1fa027-ab12-4d56-8944-ec8e8bcf1006",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31678
+  },
+  {
+    "deck": "f53bff34-9257-432f-91b8-1db2c14c84d2",
+    "diceValue": "type-e8a0cd59-20d8-422b-b82c-9fa9748f6aef",
+    "dragging": null,
+    "id": "c77db7d3-f77c-4802-9056-3bde46cdd41c",
+    "lastRoll": 1689718877322,
+    "owner": null,
+    "parent": "b3d776b9-f6fd-4d51-8420-9d968aef2df3",
+    "type": "dice",
+    "x": 628.24,
+    "y": 236.2,
+    "z": 29410
+  },
+  {
+    "cardType": "spades-10",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "1a00b0d4-6f76-4e30-8a1e-3ed91d888599",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31692
+  },
+  {
+    "cardType": "hearts-4",
+    "deck": "3088112e-a503-4747-9277-b8320e8b9615",
+    "dragging": null,
+    "faceup": false,
+    "id": "f9617e58-1171-4b54-8a3d-6861786654b8",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "3cbde22b-4ab2-408b-99c2-f3a7d8671c67",
+    "type": "card",
+    "x": 1477,
+    "y": 48,
+    "z": 31332
+  },
+  {
+    "cardType": "hearts-2",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "357dfc21-252b-4af9-ac55-951792557d05",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31668
+  },
+  {
+    "cardType": "spades-a",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "8a505472-3fe9-460d-9806-c4eb0fa7991f",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31644
+  },
+  {
+    "cardType": "hearts-6",
+    "deck": "3088112e-a503-4747-9277-b8320e8b9615",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "9f235f19-3284-475a-87c9-8b3d305f7082",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "3cbde22b-4ab2-408b-99c2-f3a7d8671c67",
+    "type": "card",
+    "x": 1477,
+    "y": 48,
+    "z": 32537
+  },
+  {
+    "dragging": null,
+    "hasShuffleButton": false,
+    "hideStackTab": true,
+    "id": "ed822044-7c0f-41bd-951f-6146f87c1b89",
+    "type": "cardPile",
+    "x": 1470.38,
+    "y": 237.59,
+    "z": 30725
+  },
+  {
+    "cardType": "clubs-6",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "15d8b560-2334-42cc-858e-48b7ec790562",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31673
+  },
+  {
+    "cardType": "spades-10",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "d32ec970-5c9b-42d4-a377-c6777920545e",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31683
+  },
+  {
+    "cardType": "clubs-4",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "04f8f314-0028-4aef-a4c6-6425d206c07c",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31633
+  },
+  {
+    "cardType": "spades-4",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "1a2e453c-93c2-4bb9-99fd-dc7c12246ec2",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31680
+  },
+  {
+    "clickRoutine": {
+      "popupMessage": "Start new game: Are you sure?",
+      "steps": [
+        {
+          "args": {
+            "decks": {
+              "type": "literal",
+              "value": [
+                "7dd2b86a-5141-4239-ac40-ae7b719fd279",
+                "60564e56-f842-4d57-af22-6a893fa176ef",
+                "1991c096-d4cc-4dda-bab4-72b597f8c4d7",
+                "3088112e-a503-4747-9277-b8320e8b9615",
+                "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+                "342a5c18-55ae-4d3e-a366-eccd136b9311"
+              ]
+            },
+            "includeHands": {
+              "type": "literal",
+              "value": "hands"
+            }
+          },
+          "func": "RECALL_CARDS",
+          "id": "39f46d94-5131-4f9e-a316-6613d1563d2f"
+        },
+        {
+          "args": {
+            "holders": {
+              "type": "literal",
+              "value": [
+                "13f41ce4-c7c9-479a-97b6-2c0d4ed64052",
+                "761ffa01-ee4a-4e2e-ad29-63282dd544e1",
+                "3cbde22b-4ab2-408b-99c2-f3a7d8671c67",
+                "ed822044-7c0f-41bd-951f-6146f87c1b89",
+                "1b29ae25-be1e-40cb-a94a-90a85cf076c1"
+              ]
+            }
+          },
+          "func": "SHUFFLE_CARDS",
+          "id": "18920c10-95e1-4b74-acb4-42f7d1a228e6"
+        },
+        {
+          "args": {
+            "objects": {
+              "holders": [
+                "13f41ce4-c7c9-479a-97b6-2c0d4ed64052"
+              ],
+              "queryWidgetTypes": [
+                "card",
+                "piece"
+              ],
+              "type": "query"
+            },
+            "to": {
+              "type": "literal",
+              "value": [
+                "265539c9-e7fd-40ee-95af-45cadcdb2168"
+              ]
+            }
+          },
+          "func": "MOVE_CARDS_BETWEEN_HOLDERS",
+          "id": "fd9f3718-e621-4aac-8dcd-64b814e148c8"
+        },
+        {
+          "args": {
+            "objects": {
+              "holders": [
+                "3cbde22b-4ab2-408b-99c2-f3a7d8671c67"
+              ],
+              "queryWidgetTypes": [
+                "card",
+                "piece"
+              ],
+              "type": "query"
+            },
+            "to": {
+              "type": "literal",
+              "value": [
+                "265539c9-e7fd-40ee-95af-45cadcdb2168"
+              ]
+            }
+          },
+          "func": "MOVE_CARDS_BETWEEN_HOLDERS",
+          "id": "f9f11bd6-1d04-4b8a-9724-f6d6aac6ebd4"
+        },
+        {
+          "args": {
+            "objects": {
+              "holders": [
+                "761ffa01-ee4a-4e2e-ad29-63282dd544e1"
+              ],
+              "queryWidgetTypes": [
+                "card",
+                "piece"
+              ],
+              "type": "query"
+            },
+            "to": {
+              "type": "literal",
+              "value": [
+                "265539c9-e7fd-40ee-95af-45cadcdb2168"
+              ]
+            }
+          },
+          "func": "MOVE_CARDS_BETWEEN_HOLDERS",
+          "id": "f745d186-97ce-4e76-ac06-f39f1f0b39ef"
+        },
+        {
+          "args": {
+            "objects": {
+              "holders": [
+                "ed822044-7c0f-41bd-951f-6146f87c1b89"
+              ],
+              "queryWidgetTypes": [
+                "card",
+                "piece"
+              ],
+              "type": "query"
+            },
+            "to": {
+              "type": "literal",
+              "value": [
+                "265539c9-e7fd-40ee-95af-45cadcdb2168"
+              ]
+            }
+          },
+          "func": "MOVE_CARDS_BETWEEN_HOLDERS",
+          "id": "562b55b1-8fd4-4214-a720-44e8ce92f310"
+        },
+        {
+          "args": {
+            "moveFlip": {
+              "type": "literal",
+              "value": "faceUp"
+            },
+            "objects": {
+              "holders": [
+                "13f41ce4-c7c9-479a-97b6-2c0d4ed64052"
+              ],
+              "queryWidgetTypes": [
+                "card",
+                "piece"
+              ],
+              "type": "query"
+            },
+            "quantity": {
+              "type": "literal",
+              "value": 5
+            },
+            "to": {
+              "type": "literal",
+              "value": [
+                "d003eb32-ce53-4c03-b2d5-6aec2a1a853a"
+              ]
+            }
+          },
+          "func": "MOVE_CARDS_BETWEEN_HOLDERS",
+          "id": "aedc063e-d988-4bfd-884c-5eaa4b19da58"
+        },
+        {
+          "args": {
+            "moveFlip": {
+              "type": "literal",
+              "value": "faceUp"
+            },
+            "objects": {
+              "holders": [
+                "3cbde22b-4ab2-408b-99c2-f3a7d8671c67"
+              ],
+              "queryWidgetTypes": [
+                "card",
+                "piece"
+              ],
+              "type": "query"
+            },
+            "quantity": {
+              "type": "literal",
+              "value": 5
+            },
+            "to": {
+              "type": "literal",
+              "value": [
+                "3bc6ffa3-1f23-4d85-b3b8-ad0fb958b79b"
+              ]
+            }
+          },
+          "func": "MOVE_CARDS_BETWEEN_HOLDERS",
+          "id": "7bfaced4-d363-42e4-bc6b-e35e0517cae0"
+        },
+        {
+          "args": {
+            "moveFlip": {
+              "type": "literal",
+              "value": "faceUp"
+            },
+            "objects": {
+              "holders": [
+                "761ffa01-ee4a-4e2e-ad29-63282dd544e1"
+              ],
+              "queryWidgetTypes": [
+                "card",
+                "piece"
+              ],
+              "type": "query"
+            },
+            "quantity": {
+              "type": "literal",
+              "value": 5
+            },
+            "to": {
+              "type": "literal",
+              "value": [
+                "1318cfb1-01e8-4d99-a491-91360ea2eab0"
+              ]
+            }
+          },
+          "func": "MOVE_CARDS_BETWEEN_HOLDERS",
+          "id": "29a1f2d8-75f1-46f5-8457-87b854157d19"
+        },
+        {
+          "args": {
+            "moveFlip": {
+              "type": "literal",
+              "value": "faceUp"
+            },
+            "objects": {
+              "holders": [
+                "ed822044-7c0f-41bd-951f-6146f87c1b89"
+              ],
+              "queryWidgetTypes": [
+                "card",
+                "piece"
+              ],
+              "type": "query"
+            },
+            "quantity": {
+              "type": "literal",
+              "value": 5
+            },
+            "to": {
+              "type": "literal",
+              "value": [
+                "eed9840e-2986-48a0-b122-d64bf8d03396"
+              ]
+            }
+          },
+          "func": "MOVE_CARDS_BETWEEN_HOLDERS",
+          "id": "5b81ecd1-0b09-455f-8cfb-1f18e3977e11"
+        },
+        {
+          "args": {
+            "moveFlip": {
+              "type": "literal",
+              "value": "faceUp"
+            },
+            "objects": {
+              "holders": [
+                "1b29ae25-be1e-40cb-a94a-90a85cf076c1"
+              ],
+              "queryWidgetTypes": [
+                "card",
+                "piece"
+              ],
+              "type": "query"
+            },
+            "quantity": {
+              "type": "literal",
+              "value": 3
+            },
+            "to": {
+              "type": "literal",
+              "value": [
+                "2cc9a24a-e948-4fa8-af66-dae4673af62d",
+                "eee6303d-a46b-4900-ba94-438694b78f88",
+                "dcf30fcb-8c0b-4ec9-af7e-39f190649034",
+                "235113d2-ecd4-477c-b2a5-ffbbc0ba9c96",
+                "eaf7e157-fa1a-4aac-b3d0-f17080b3badd",
+                "d7f54143-8fd4-4580-9e28-cfaa45daa5d6"
+              ]
+            }
+          },
+          "func": "MOVE_CARDS_BETWEEN_HOLDERS",
+          "id": "e3c871b8-2986-4ddb-bef8-c92b95c5b9ee",
+          "title": "Deal: Move 3 objects to 4 holders"
+        },
+        {
+          "args": {
+            "moveFlip": {
+              "type": "literal",
+              "value": "none"
+            },
+            "objects": {
+              "holders": [
+                "882f834c-9d7b-43ce-9947-b26b8bf2b1eb"
+              ],
+              "queryWidgetTypes": [
+                "card",
+                "piece"
+              ],
+              "type": "query"
+            },
+            "quantity": {
+              "type": "literal",
+              "value": 999
+            },
+            "to": {
+              "type": "literal",
+              "value": [
+                "b3d776b9-f6fd-4d51-8420-9d968aef2df3"
+              ]
+            }
+          },
+          "func": "MOVE_CARDS_BETWEEN_HOLDERS",
+          "id": "255daef6-0b30-4f60-ad16-ca250d186e2e"
+        },
+        {
+          "args": {
+            "changeNumber": {
+              "type": "literal",
+              "value": -10
+            },
+            "counters": {
+              "type": "literal",
+              "value": [
+                "bf3f6c7a-3844-4c40-8c3f-b1dcbfd937fe",
+                "83a8666c-778d-4914-b1d4-d5be8c7fde03",
+                "ee2be926-3f33-4b53-8260-48c013857f0a",
+                "7db6085d-d0c7-4bf2-959b-6f738d298cff"
+              ]
+            }
+          },
+          "func": "CHANGE_COUNTER",
+          "id": "33455830-b1a8-4f81-af57-1fa61e504550"
+        },
+        {
+          "args": {
+            "choice": {
+              "type": "literal",
+              "value": "type-1fb681ce-edac-4b25-a644-254336dc1bb1"
+            },
+            "choosers": {
+              "type": "literal",
+              "value": [
+                "83104590-4876-4d32-aded-94a192e33b13"
+              ]
+            }
+          },
+          "func": "CHANGE_CHOOSER",
+          "id": "83fadc76-0f3b-449d-b1e8-260fc6c31109"
+        },
+        {
+          "args": {
+            "changeRotation": {
+              "type": "literal",
+              "value": "auto"
+            },
+            "objects": {
+              "collections": [
+                "f53bff34-9257-432f-91b8-1db2c14c84d2"
+              ],
+              "holders": [
+                "882f834c-9d7b-43ce-9947-b26b8bf2b1eb"
+              ],
+              "queryWidgetTypes": [
+                "dice"
+              ],
+              "type": "query"
+            },
+            "quantity": {
+              "type": "literal",
+              "value": 99
+            },
+            "to": {
+              "type": "literal",
+              "value": [
+                "b3d776b9-f6fd-4d51-8420-9d968aef2df3"
+              ]
+            }
+          },
+          "func": "MOVE_CARDS_BETWEEN_HOLDERS",
+          "id": "024a05b9-b587-4c1c-b28a-3573792eb867"
+        },
+        {
+          "args": {
+            "direction": {
+              "type": "literal",
+              "value": "az"
+            },
+            "sources": {
+              "type": "literal",
+              "value": [
+                "38eaf327-915c-43da-a242-e45f03663e26"
+              ]
+            }
+          },
+          "func": "SORT_CARDS",
+          "id": "a0898650-6fed-4372-ad95-1d1c9df18106"
+        },
+        {
+          "args": {
+            "flipFace": {
+              "type": "literal",
+              "value": "faceUp"
+            },
+            "flipMode": {
+              "type": "literal",
+              "value": "pile"
+            },
+            "objects": {
+              "holders": [
+                "38eaf327-915c-43da-a242-e45f03663e26"
+              ],
+              "queryWidgetTypes": [
+                "card",
+                "piece"
+              ],
+              "type": "query"
+            },
+            "reverse": {
+              "type": "literal",
+              "value": "none"
+            }
+          },
+          "func": "FLIP_CARDS",
+          "id": "785110d8-f7b9-4971-baaf-b1784be2f552"
+        }
+      ]
+    },
+    "dragging": null,
+    "draggingType": null,
+    "id": "7a34ea8d-50ab-4bac-836c-1d5c6dce41cf",
+    "label": "New Game",
+    "type": "automationButton",
+    "x": 176.5,
+    "y": 27.77,
+    "z": 30393
+  },
+  {
+    "cardType": "clubs-k",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "28263020-50c3-444f-80e6-78a33360f210",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31701
+  },
+  {
+    "cardType": "hearts-10",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "f227c5ae-0600-4825-8c8b-c8c82093c2fc",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31687
+  },
+  {
+    "cardType": "diamonds-10",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "757e7377-6b0b-47ad-b924-63986fd3ea39",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31672
+  },
+  {
+    "cardType": "clubs-8",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "c1d3cd34-debb-4f90-b6fe-b7dd6822ecc9",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31696
+  },
+  {
+    "cardType": "diamonds-4",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "9b276d90-1be8-41e9-aff0-6cda7096a281",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31631
+  },
+  {
+    "cardType": "spades-6",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "43f57f23-1e43-4ac4-a160-acc257a6143a",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31607
+  },
+  {
+    "cardType": "diamonds-2",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "b4b1e56c-24ea-4c12-86f2-5e0164e028bb",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31626
+  },
+  {
+    "cardType": "clubs-a",
+    "deck": "60564e56-f842-4d57-af22-6a893fa176ef",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "3a3cfe9b-ba93-4813-869f-c6833e2d1ef0",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "761ffa01-ee4a-4e2e-ad29-63282dd544e1",
+    "type": "card",
+    "x": 1475,
+    "y": 642,
+    "z": 32355
+  },
+  {
+    "deck": "f53bff34-9257-432f-91b8-1db2c14c84d2",
+    "diceValue": "type-e8a0cd59-20d8-422b-b82c-9fa9748f6aef",
+    "dragging": null,
+    "id": "c2fb87f7-a91d-4e86-8a1d-ec70ec80cf10",
+    "lastRoll": 1689718884807,
+    "owner": null,
+    "parent": "b3d776b9-f6fd-4d51-8420-9d968aef2df3",
+    "type": "dice",
+    "x": 714.32,
+    "y": 236.2,
+    "z": 28406
+  },
+  {
+    "counterValue": -10,
+    "dragging": null,
+    "id": "bf3f6c7a-3844-4c40-8c3f-b1dcbfd937fe",
+    "label": "Governance",
+    "type": "counter",
+    "x": 801.31,
+    "y": 705.93,
+    "z": 26046
+  },
+  {
+    "cardType": "clubs-j",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "d3372d48-5d3f-44af-8185-6124c3de4041",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31690
+  },
+  {
+    "cardType": "diamonds-k",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "424ae1ba-435c-4b5f-96e0-e7dee5f64955",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31647
+  },
+  {
+    "cardType": "hearts-a",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "a77974c6-0e4e-4906-9783-cf58f3ce9561",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31662
+  },
+  {
+    "deck": "f53bff34-9257-432f-91b8-1db2c14c84d2",
+    "diceValue": "type-0abd20a9-6a5c-41ac-87e9-c9fef092e929",
+    "dragging": null,
+    "id": "e5838daf-c742-4965-ab8f-9ed4bc0eb3ee",
+    "lastRoll": 1689718884807,
+    "owner": null,
+    "parent": "b3d776b9-f6fd-4d51-8420-9d968aef2df3",
+    "type": "dice",
+    "x": 369.97,
+    "y": 314.57,
+    "z": 28402
+  },
+  {
+    "cardType": "clubs-3",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "20f82e15-7bbd-437a-b29b-adc1a211440f",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31630
+  },
+  {
+    "cardType": "hearts-j",
+    "deck": "3088112e-a503-4747-9277-b8320e8b9615",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "f4e84dd4-5f7b-4ecc-a05d-833220c673c8",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "3cbde22b-4ab2-408b-99c2-f3a7d8671c67",
+    "type": "card",
+    "x": 1477,
+    "y": 48,
+    "z": 32716
+  },
+  {
+    "cardType": "spades-q",
+    "deck": "1991c096-d4cc-4dda-bab4-72b597f8c4d7",
+    "dragging": null,
+    "faceup": false,
+    "id": "99b30438-23c1-4ec2-b04d-26fc644f2d91",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "ed822044-7c0f-41bd-951f-6146f87c1b89",
+    "type": "card",
+    "x": 1474,
+    "y": 241,
+    "z": 31345
+  },
+  {
+    "cardType": "clubs-7",
+    "deck": "60564e56-f842-4d57-af22-6a893fa176ef",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "6ef3e78b-4844-4c9c-9ab1-27405b965071",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "761ffa01-ee4a-4e2e-ad29-63282dd544e1",
+    "type": "card",
+    "x": 1475,
+    "y": 642,
+    "z": 32341
+  },
+  {
+    "cardType": "spades-a",
+    "deck": "1991c096-d4cc-4dda-bab4-72b597f8c4d7",
+    "dragging": null,
+    "faceup": false,
+    "id": "8f8b8a29-9e41-404b-abb5-736615f91fbb",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "ed822044-7c0f-41bd-951f-6146f87c1b89",
+    "type": "card",
+    "x": 1474,
+    "y": 241,
+    "z": 31343
+  },
+  {
+    "cardType": "diamonds-3",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "b8e5f9e3-55ca-43ea-8b96-2709602c7ce4",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31684
+  },
+  {
+    "cardType": "spades-6",
+    "deck": "1991c096-d4cc-4dda-bab4-72b597f8c4d7",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "5371ecbb-dd62-4adf-b445-35d52b5bd7b1",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "ed822044-7c0f-41bd-951f-6146f87c1b89",
+    "type": "card",
+    "x": 1474,
+    "y": 241,
+    "z": 32644
+  },
+  {
+    "cardType": "diamonds-7",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "3c3f9559-730a-4c23-a070-6bd0055fb603",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31615
+  },
+  {
+    "cardType": "diamonds-9",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "8d67ef08-f5ea-434c-8cc2-4a3fb1c32013",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31616
+  },
+  {
+    "cardType": "diamonds-8",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "14b6bbf8-0c1b-4972-b7c2-e25d2a9e3f1b",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31660
+  },
+  {
+    "cardType": "spades-10",
+    "deck": "1991c096-d4cc-4dda-bab4-72b597f8c4d7",
+    "dragging": null,
+    "faceup": false,
+    "id": "aad570de-3dfb-4ae5-8637-83038e5b742e",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "ed822044-7c0f-41bd-951f-6146f87c1b89",
+    "type": "card",
+    "x": 1474,
+    "y": 241,
+    "z": 31344
+  },
+  {
+    "cardType": "hearts-4",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "9a42ac20-0990-42ac-b774-95ea74c7e504",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31613
+  },
+  {
+    "dragging": null,
+    "height": 90,
+    "id": "882f834c-9d7b-43ce-9947-b26b8bf2b1eb",
+    "type": "cardPile",
+    "width": 90,
+    "x": 1577.5,
+    "y": 977.5,
+    "z": 26207
+  },
+  {
+    "cardType": "hearts-10",
+    "deck": "3088112e-a503-4747-9277-b8320e8b9615",
+    "dragging": null,
+    "faceup": false,
+    "id": "337e414f-e745-4cd8-9cb9-6c09dfa3deaf",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "3cbde22b-4ab2-408b-99c2-f3a7d8671c67",
+    "type": "card",
+    "x": 1477,
+    "y": 48,
+    "z": 31329
+  },
+  {
+    "cardType": "clubs-9",
+    "deck": "60564e56-f842-4d57-af22-6a893fa176ef",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "8831639c-0df0-4583-be63-ac61b1a06388",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "761ffa01-ee4a-4e2e-ad29-63282dd544e1",
+    "type": "card",
+    "x": 1475,
+    "y": 642,
+    "z": 32288
+  },
+  {
+    "deck": "f53bff34-9257-432f-91b8-1db2c14c84d2",
+    "diceValue": "type-0abd20a9-6a5c-41ac-87e9-c9fef092e929",
+    "dragging": null,
+    "id": "643fd63c-1bd3-479f-b766-bdde318db3ed",
+    "lastRoll": 1689718884807,
+    "owner": null,
+    "parent": "b3d776b9-f6fd-4d51-8420-9d968aef2df3",
+    "type": "dice",
+    "x": 456.06,
+    "y": 314.57,
+    "z": 28403
+  },
+  {
+    "cardType": "clubs-j",
+    "deck": "60564e56-f842-4d57-af22-6a893fa176ef",
+    "dragging": null,
+    "faceup": false,
+    "id": "69213d91-b753-489e-ad1d-ae14da88b383",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "761ffa01-ee4a-4e2e-ad29-63282dd544e1",
+    "type": "card",
+    "x": 1475,
+    "y": 642,
+    "z": 31318
+  },
+  {
+    "allowedDecks": [
+      "60564e56-f842-4d57-af22-6a893fa176ef"
+    ],
+    "dragging": null,
+    "id": "1318cfb1-01e8-4d99-a491-91360ea2eab0",
+    "label": "Governance",
+    "layoutType": "spread",
+    "type": "cardPile",
+    "width": 506.26,
+    "x": 946.24,
+    "y": 637.58,
+    "z": 25988
+  },
+  {
+    "allowedDecks": [
+      "7dd2b86a-5141-4239-ac40-ae7b719fd279"
+    ],
+    "dragging": null,
+    "id": "d003eb32-ce53-4c03-b2d5-6aec2a1a853a",
+    "label": "Agent Foundations",
+    "layoutType": "spread",
+    "type": "cardPile",
+    "width": 506.26,
+    "x": 946.28,
+    "y": 434.97,
+    "z": 30728
+  },
+  {
+    "cardType": "diamonds-8",
+    "deck": "7dd2b86a-5141-4239-ac40-ae7b719fd279",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "099b6560-e57f-4e5e-84ac-d2762fa98837",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "13f41ce4-c7c9-479a-97b6-2c0d4ed64052",
+    "type": "card",
+    "x": 1474,
+    "y": 438,
+    "z": 31895
+  },
+  {
+    "cardType": "diamonds-a",
+    "deck": "7dd2b86a-5141-4239-ac40-ae7b719fd279",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "de3e0fbc-a891-451e-bd0c-9bb5639b5e42",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "13f41ce4-c7c9-479a-97b6-2c0d4ed64052",
+    "type": "card",
+    "x": 1474,
+    "y": 438,
+    "z": 32159
+  },
+  {
+    "autoShuffle": true,
+    "backTemplate": {
+      "includeBorder": "heavy",
+      "includeRadius": true,
+      "objects": [
+        {
+          "color": "#840202",
+          "h": 160,
+          "type": "image",
+          "value": "/img/cardbacks/cardback-red.svg",
+          "valueType": "static",
+          "w": 103,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    "cardTypes": {
+      "hearts-10": {
+        "image": "/img/cards-french/hearts-10.svg",
+        "label": "10 of Hearts"
+      },
+      "hearts-2": {
+        "image": "/img/cards-french/hearts-2.svg",
+        "label": "2 of Hearts"
+      },
+      "hearts-3": {
+        "image": "/img/cards-french/hearts-3.svg",
+        "label": "3 of Hearts"
+      },
+      "hearts-4": {
+        "image": "/img/cards-french/hearts-4.svg",
+        "label": "4 of Hearts"
+      },
+      "hearts-5": {
+        "image": "/img/cards-french/hearts-5.svg",
+        "label": "5 of Hearts"
+      },
+      "hearts-6": {
+        "image": "/img/cards-french/hearts-6.svg",
+        "label": "6 of Hearts"
+      },
+      "hearts-7": {
+        "image": "/img/cards-french/hearts-7.svg",
+        "label": "7 of Hearts"
+      },
+      "hearts-8": {
+        "image": "/img/cards-french/hearts-8.svg",
+        "label": "8 of Hearts"
+      },
+      "hearts-9": {
+        "image": "/img/cards-french/hearts-9.svg",
+        "label": "9 of Hearts"
+      },
+      "hearts-a": {
+        "image": "/img/cards-french/hearts-a.svg",
+        "label": "A of Hearts"
+      },
+      "hearts-j": {
+        "image": "/img/cards-french/hearts-j.svg",
+        "label": "J of Hearts"
+      },
+      "hearts-k": {
+        "image": "/img/cards-french/hearts-k.svg",
+        "label": "K of Hearts"
+      },
+      "hearts-q": {
+        "image": "/img/cards-french/hearts-q.svg",
+        "label": "Q of Hearts"
+      }
+    },
+    "dragging": null,
+    "faceTemplate": {
+      "includeBorder": "heavy",
+      "includeRadius": true,
+      "objects": [
+        {
+          "color": "white",
+          "h": 160,
+          "type": "image",
+          "value": "image",
+          "valueType": "dynamic",
+          "w": 103,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    "id": "3088112e-a503-4747-9277-b8320e8b9615",
+    "parent": "3cbde22b-4ab2-408b-99c2-f3a7d8671c67",
+    "showUnflipped": true,
+    "type": "cardDeck",
+    "x": 1485.51,
+    "y": 85.57,
+    "z": 22066
+  },
+  {
+    "deck": "f53bff34-9257-432f-91b8-1db2c14c84d2",
+    "diceValue": "type-0abd20a9-6a5c-41ac-87e9-c9fef092e929",
+    "dragging": null,
+    "id": "a701348c-b3c2-4090-b017-ae3d660051d5",
+    "lastRoll": 1689718877322,
+    "owner": null,
+    "parent": "b3d776b9-f6fd-4d51-8420-9d968aef2df3",
+    "type": "dice",
+    "x": 628.24,
+    "y": 314.57,
+    "z": 31173
+  },
+  {
+    "cardType": "hearts-q",
+    "deck": "3088112e-a503-4747-9277-b8320e8b9615",
+    "dragging": null,
+    "faceup": false,
+    "id": "a93e0f40-34bb-4f63-ac32-eb3c621b377e",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "3cbde22b-4ab2-408b-99c2-f3a7d8671c67",
+    "type": "card",
+    "x": 1477,
+    "y": 48,
+    "z": 31331
+  },
+  {
+    "deck": "f53bff34-9257-432f-91b8-1db2c14c84d2",
+    "diceValue": "type-e8a0cd59-20d8-422b-b82c-9fa9748f6aef",
+    "dragging": null,
+    "id": "85af3dca-8691-4199-9105-e415fc740b5e",
+    "lastRoll": 1689718884807,
+    "owner": null,
+    "parent": "b3d776b9-f6fd-4d51-8420-9d968aef2df3",
+    "type": "dice",
+    "x": 456.06,
+    "y": 236.2,
+    "z": 18289
+  },
+  {
+    "cardType": "clubs-7",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "82fa4bfd-b494-4681-89e7-98254cecba01",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31617
+  },
+  {
+    "cardType": "joker-black",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "79626350-3ea8-4dec-9cc0-27cc9907e61a",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31671
+  },
+  {
+    "allowedDecks": [
+      "4dd61932-2fac-4e32-8b8a-96574c3c23bd"
+    ],
+    "dragging": null,
+    "height": 200.99,
+    "hideStackTab": true,
+    "id": "19744fbd-a398-491a-a5ae-e5958d96b906",
+    "label": "Discard",
+    "layoutType": null,
+    "type": "cardPile",
+    "width": 139.74,
+    "x": 609.05,
+    "y": 594.78,
+    "z": 26162
+  },
+  {
+    "cardType": "diamonds-7",
+    "deck": "7dd2b86a-5141-4239-ac40-ae7b719fd279",
+    "dragging": null,
+    "faceup": false,
+    "id": "76b99f92-5afd-42cc-bd41-737c3237073c",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "13f41ce4-c7c9-479a-97b6-2c0d4ed64052",
+    "type": "card",
+    "x": 1474,
+    "y": 438,
+    "z": 31303
+  },
+  {
+    "cardType": "hearts-j",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "cde1f1a6-194f-40f8-9765-0afc8df76076",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31632
+  },
+  {
+    "allowedDecks": [
+      "3088112e-a503-4747-9277-b8320e8b9615"
+    ],
+    "dragging": null,
+    "id": "3bc6ffa3-1f23-4d85-b3b8-ad0fb958b79b",
+    "label": "Prosaiac Alignment / YOLO / Shard Theory",
+    "layoutType": "spread",
+    "type": "cardPile",
+    "width": 506.26,
+    "x": 945.89,
+    "y": 44.99,
+    "z": 25870
+  },
+  {
+    "deck": "f53bff34-9257-432f-91b8-1db2c14c84d2",
+    "diceValue": "type-0abd20a9-6a5c-41ac-87e9-c9fef092e929",
+    "dragging": null,
+    "id": "2e7e0731-3e99-4fac-95fc-60d065160f25",
+    "lastRoll": 1689718884807,
+    "owner": null,
+    "parent": "b3d776b9-f6fd-4d51-8420-9d968aef2df3",
+    "type": "dice",
+    "x": 369.97,
+    "y": 236.2,
+    "z": 28400
+  },
+  {
+    "cardType": "clubs-8",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "89e2dd63-e506-4e4b-9b75-f637df47904b",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31605
+  },
+  {
+    "cardType": "hearts-6",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "9b891eba-0494-4936-af1e-f8f2892662e9",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31638
+  },
+  {
+    "cardType": "joker-red",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "5615aa8f-5796-4fc1-b29a-3cfb96f4d29f",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31634
+  },
+  {
+    "cardType": "spades-k",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "02b2b36f-d000-4a94-8d39-2f23d8fdda35",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31665
+  },
+  {
+    "dragging": null,
+    "id": "hand",
+    "type": "hand",
+    "x": 47.74,
+    "y": 820,
+    "z": 28070
+  },
+  {
+    "cardType": "hearts-8",
+    "deck": "3088112e-a503-4747-9277-b8320e8b9615",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "6e269c31-9586-443a-b2b1-299d5d9d15cf",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "3cbde22b-4ab2-408b-99c2-f3a7d8671c67",
+    "type": "card",
+    "x": 1477,
+    "y": 48,
+    "z": 32701
+  },
+  {
+    "cardType": "clubs-9",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "a00abfe7-04c2-4295-8a2e-7a9193b5859c",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31694
+  },
+  {
+    "cardType": "hearts-7",
+    "deck": "3088112e-a503-4747-9277-b8320e8b9615",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "2759b8b4-562f-425f-8c84-1af12b52c782",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "3cbde22b-4ab2-408b-99c2-f3a7d8671c67",
+    "type": "card",
+    "x": 1477,
+    "y": 48,
+    "z": 32714
+  },
+  {
+    "deck": "f53bff34-9257-432f-91b8-1db2c14c84d2",
+    "diceValue": "type-e8a0cd59-20d8-422b-b82c-9fa9748f6aef",
+    "dragging": null,
+    "id": "9307b9e9-013f-4f21-aa5d-78714d5f6262",
+    "lastRoll": 1689718877322,
+    "owner": null,
+    "parent": "b3d776b9-f6fd-4d51-8420-9d968aef2df3",
+    "type": "dice",
+    "x": 283.88,
+    "y": 236.2,
+    "z": 29408
+  },
+  {
+    "cardType": "clubs-10",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "e268fc2a-b869-4ab3-b4ab-099d53e52b9d",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31679
+  },
+  {
+    "cardType": "diamonds-a",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "16260738-d38f-4ef8-9560-aa91d00a1b55",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31620
+  },
+  {
+    "cardType": "diamonds-9",
+    "deck": "7dd2b86a-5141-4239-ac40-ae7b719fd279",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "2b5c2400-8187-4c5b-b275-933b13a7cdc8",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "13f41ce4-c7c9-479a-97b6-2c0d4ed64052",
+    "type": "card",
+    "x": 1474,
+    "y": 438,
+    "z": 32033
+  },
+  {
+    "cardType": "joker-red",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "3d27df25-ce08-4a11-8746-5e8ff875f50f",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31676
+  },
+  {
+    "autoShuffle": true,
+    "backTemplate": {
+      "includeBorder": "heavy",
+      "includeRadius": true,
+      "objects": [
+        {
+          "color": "#840202",
+          "h": 160,
+          "type": "image",
+          "value": "/img/cardbacks/cardback-red.svg",
+          "valueType": "static",
+          "w": 103,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    "cardTypes": {
+      "spades-10": {
+        "image": "/img/cards-french/spades-10.svg",
+        "label": "10 of Spades"
+      },
+      "spades-2": {
+        "image": "/img/cards-french/spades-2.svg",
+        "label": "2 of Spades"
+      },
+      "spades-3": {
+        "image": "/img/cards-french/spades-3.svg",
+        "label": "3 of Spades"
+      },
+      "spades-4": {
+        "image": "/img/cards-french/spades-4.svg",
+        "label": "4 of Spades"
+      },
+      "spades-5": {
+        "image": "/img/cards-french/spades-5.svg",
+        "label": "5 of Spades"
+      },
+      "spades-6": {
+        "image": "/img/cards-french/spades-6.svg",
+        "label": "6 of Spades"
+      },
+      "spades-7": {
+        "image": "/img/cards-french/spades-7.svg",
+        "label": "7 of Spades"
+      },
+      "spades-8": {
+        "image": "/img/cards-french/spades-8.svg",
+        "label": "8 of Spades"
+      },
+      "spades-9": {
+        "image": "/img/cards-french/spades-9.svg",
+        "label": "9 of Spades"
+      },
+      "spades-a": {
+        "image": "/img/cards-french/spades-a.svg",
+        "label": "A of Spades"
+      },
+      "spades-j": {
+        "image": "/img/cards-french/spades-j.svg",
+        "label": "J of Spades"
+      },
+      "spades-k": {
+        "image": "/img/cards-french/spades-k.svg",
+        "label": "K of Spades"
+      },
+      "spades-q": {
+        "image": "/img/cards-french/spades-q.svg",
+        "label": "Q of Spades"
+      }
+    },
+    "dragging": null,
+    "faceTemplate": {
+      "includeBorder": "heavy",
+      "includeRadius": true,
+      "objects": [
+        {
+          "color": "white",
+          "h": 160,
+          "type": "image",
+          "value": "image",
+          "valueType": "dynamic",
+          "w": 103,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    "id": "1991c096-d4cc-4dda-bab4-72b597f8c4d7",
+    "owner": null,
+    "parent": "ed822044-7c0f-41bd-951f-6146f87c1b89",
+    "showUnflipped": true,
+    "type": "cardDeck",
+    "x": 1482.88,
+    "y": 278.59,
+    "z": 23864
+  },
+  {
+    "cardType": "diamonds-6",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "9dda0727-8818-40cb-99c6-04ff2c420c0e",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31691
+  },
+  {
+    "cardType": "clubs-5",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "f879e5b9-4183-4ef3-a576-0c2ee909f41c",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31688
+  },
+  {
+    "cardType": "spades-5",
+    "deck": "1991c096-d4cc-4dda-bab4-72b597f8c4d7",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "7732cb47-6407-4719-ab1c-d4e66e502c9f",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "ed822044-7c0f-41bd-951f-6146f87c1b89",
+    "type": "card",
+    "x": 1474,
+    "y": 241,
+    "z": 32481
+  },
+  {
+    "cardType": "spades-7",
+    "deck": "1991c096-d4cc-4dda-bab4-72b597f8c4d7",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "c4fba321-001d-4def-91b1-82bf6d5cc17f",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "ed822044-7c0f-41bd-951f-6146f87c1b89",
+    "type": "card",
+    "x": 1474,
+    "y": 241,
+    "z": 32406
+  },
+  {
+    "chooserChoice": "type-1fb681ce-edac-4b25-a644-254336dc1bb1",
+    "deck": "dfae0717-3586-4322-bb43-d5d572e5bfe8",
+    "dragging": null,
+    "id": "83104590-4876-4d32-aded-94a192e33b13",
+    "type": "chooser",
+    "x": 599.45,
+    "y": 384.81,
+    "z": 28739
+  },
+  {
+    "cardType": "spades-3",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "e17d5224-a6a7-4c34-80ff-92b0d935b44d",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31642
+  },
+  {
+    "cardType": "clubs-j",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "b9fcb653-57e4-4e48-b3cc-60d2ae91d5ce",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31657
+  },
+  {
+    "counterValue": -10,
+    "dragging": null,
+    "id": "83a8666c-778d-4914-b1d4-d5be8c7fde03",
+    "label": "Agent Foundations",
+    "type": "counter",
+    "x": 799.46,
+    "y": 490.72,
+    "z": 26041
+  },
+  {
+    "cardType": "hearts-k",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "8a44081c-dac2-4329-be34-28a9bbfb187d",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31682
+  },
+  {
+    "cardType": "spades-8",
+    "deck": "1991c096-d4cc-4dda-bab4-72b597f8c4d7",
+    "dragging": null,
+    "faceup": false,
+    "id": "75b7d195-a729-4a54-8584-7524b18bc5ba",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "ed822044-7c0f-41bd-951f-6146f87c1b89",
+    "type": "card",
+    "x": 1474,
+    "y": 241,
+    "z": 31339
+  },
+  {
+    "deck": "f53bff34-9257-432f-91b8-1db2c14c84d2",
+    "diceValue": "type-0abd20a9-6a5c-41ac-87e9-c9fef092e929",
+    "dragging": null,
+    "id": "f4e6c40d-d945-4a4b-a7c0-18b603d34974",
+    "lastRoll": 1689718884807,
+    "owner": null,
+    "parent": "b3d776b9-f6fd-4d51-8420-9d968aef2df3",
+    "type": "dice",
+    "x": 197.79,
+    "y": 236.2,
+    "z": 28408
+  },
+  {
+    "deck": "f53bff34-9257-432f-91b8-1db2c14c84d2",
+    "diceValue": "type-e8a0cd59-20d8-422b-b82c-9fa9748f6aef",
+    "dragging": null,
+    "id": "91092049-0f41-4e45-86ca-3e182456b06e",
+    "lastRoll": 1689718884807,
+    "owner": null,
+    "parent": "b3d776b9-f6fd-4d51-8420-9d968aef2df3",
+    "type": "dice",
+    "x": 714.32,
+    "y": 314.57,
+    "z": 28407
+  },
+  {
+    "deck": "f53bff34-9257-432f-91b8-1db2c14c84d2",
+    "diceValue": "type-0abd20a9-6a5c-41ac-87e9-c9fef092e929",
+    "dragging": null,
+    "id": "7ea12978-aa81-470a-85ce-92122ce2881a",
+    "lastRoll": 1689718884807,
+    "owner": null,
+    "parent": "b3d776b9-f6fd-4d51-8420-9d968aef2df3",
+    "type": "dice",
+    "x": 542.15,
+    "y": 236.2,
+    "z": 28405
+  },
+  {
+    "cardType": "diamonds-q",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "18f59b55-58f0-4c76-86ff-f8b6793c7c6c",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31614
+  },
+  {
+    "cardType": "joker-red",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "ec87d15f-346b-419d-82d8-7a2838999748",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31681
+  },
+  {
+    "cardType": "diamonds-6",
+    "deck": "7dd2b86a-5141-4239-ac40-ae7b719fd279",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "1968aabb-4931-4347-8e1d-a342635d5b9c",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "13f41ce4-c7c9-479a-97b6-2c0d4ed64052",
+    "type": "card",
+    "x": 1474,
+    "y": 438,
+    "z": 32123
+  },
+  {
+    "cardType": "spades-9",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "47c9299b-8727-483c-8224-c8021c00f77f",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31663
+  },
+  {
+    "cardType": "hearts-9",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "92928fbf-6ba9-4406-9d6e-f5d1c1356e2f",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31621
+  },
+  {
+    "cardType": "diamonds-j",
+    "deck": "7dd2b86a-5141-4239-ac40-ae7b719fd279",
+    "dragging": null,
+    "faceup": false,
+    "id": "991addd2-dda9-41bf-8441-267a5bb6f039",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "13f41ce4-c7c9-479a-97b6-2c0d4ed64052",
+    "type": "card",
+    "x": 1474,
+    "y": 438,
+    "z": 31304
+  },
+  {
+    "cardType": "diamonds-10",
+    "deck": "7dd2b86a-5141-4239-ac40-ae7b719fd279",
+    "dragging": null,
+    "faceup": false,
+    "id": "00120433-c475-410f-818e-53bf87d9dbe6",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "13f41ce4-c7c9-479a-97b6-2c0d4ed64052",
+    "type": "card",
+    "x": 1474,
+    "y": 438,
+    "z": 31305
+  },
+  {
+    "cardType": "diamonds-6",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "725072f2-1979-4bac-b957-d9d42b4f7833",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31609
+  },
+  {
+    "autoShuffle": true,
+    "backTemplate": {
+      "includeBorder": "heavy",
+      "includeRadius": true,
+      "objects": [
+        {
+          "color": "#840202",
+          "h": 160,
+          "type": "image",
+          "value": "/img/cardbacks/cardback-red.svg",
+          "valueType": "static",
+          "w": 103,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    "cardTypes": {
+      "clubs-10": {
+        "image": "/img/cards-french/clubs-10.svg",
+        "label": "10 of Clubs"
+      },
+      "clubs-2": {
+        "image": "/img/cards-french/clubs-2.svg",
+        "label": "2 of Clubs"
+      },
+      "clubs-3": {
+        "image": "/img/cards-french/clubs-3.svg",
+        "label": "3 of Clubs"
+      },
+      "clubs-4": {
+        "image": "/img/cards-french/clubs-4.svg",
+        "label": "4 of Clubs"
+      },
+      "clubs-5": {
+        "image": "/img/cards-french/clubs-5.svg",
+        "label": "5 of Clubs"
+      },
+      "clubs-6": {
+        "image": "/img/cards-french/clubs-6.svg",
+        "label": "6 of Clubs"
+      },
+      "clubs-7": {
+        "image": "/img/cards-french/clubs-7.svg",
+        "label": "7 of Clubs"
+      },
+      "clubs-8": {
+        "image": "/img/cards-french/clubs-8.svg",
+        "label": "8 of Clubs"
+      },
+      "clubs-9": {
+        "image": "/img/cards-french/clubs-9.svg",
+        "label": "9 of Clubs"
+      },
+      "clubs-a": {
+        "image": "/img/cards-french/clubs-a.svg",
+        "label": "A of Clubs"
+      },
+      "clubs-j": {
+        "image": "/img/cards-french/clubs-j.svg",
+        "label": "J of Clubs"
+      },
+      "clubs-k": {
+        "image": "/img/cards-french/clubs-k.svg",
+        "label": "K of Clubs"
+      },
+      "clubs-q": {
+        "image": "/img/cards-french/clubs-q.svg",
+        "label": "Q of Clubs"
+      }
+    },
+    "dragging": null,
+    "faceTemplate": {
+      "includeBorder": "heavy",
+      "includeRadius": true,
+      "objects": [
+        {
+          "color": "white",
+          "h": 160,
+          "type": "image",
+          "value": "image",
+          "valueType": "dynamic",
+          "w": 103,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    "id": "60564e56-f842-4d57-af22-6a893fa176ef",
+    "owner": null,
+    "parent": "761ffa01-ee4a-4e2e-ad29-63282dd544e1",
+    "showUnflipped": true,
+    "type": "cardDeck",
+    "x": 1484.03,
+    "y": 679.41,
+    "z": 30868
+  },
+  {
+    "deck": "f53bff34-9257-432f-91b8-1db2c14c84d2",
+    "diceValue": "type-e8a0cd59-20d8-422b-b82c-9fa9748f6aef",
+    "dragging": null,
+    "id": "4b089f02-2092-404a-a001-f310d3a58f65",
+    "lastRoll": 1689718884807,
+    "owner": null,
+    "parent": "b3d776b9-f6fd-4d51-8420-9d968aef2df3",
+    "type": "dice",
+    "x": 197.79,
+    "y": 314.57,
+    "z": 28401
+  },
+  {
+    "allowPlayerMove": true,
+    "cardHeight": 50,
+    "cardTypes": {
+      "type-0abd20a9-6a5c-41ac-87e9-c9fef092e929": {
+        "image": "package://userassets/danger_die.svg",
+        "label": "danger"
+      },
+      "type-e8a0cd59-20d8-422b-b82c-9fa9748f6aef": {
+        "image": "package://userassets/safe_die.svg",
+        "label": "safe"
+      }
+    },
+    "cardWidth": 50,
+    "collectionType": "dice",
+    "dragging": null,
+    "faceTemplate": {
+      "includeBorder": "heavy",
+      "includeRadius": true,
+      "objects": [
+        {
+          "color": "transparent",
+          "h": 50,
+          "type": "image",
+          "value": "image",
+          "valueType": "dynamic",
+          "w": 50,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    "id": "f53bff34-9257-432f-91b8-1db2c14c84d2",
+    "parent": "b3d776b9-f6fd-4d51-8420-9d968aef2df3",
+    "type": "cardDeck",
+    "x": 438.06,
+    "y": 257.38,
+    "z": 26215
+  },
+  {
+    "cardType": "diamonds-5",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "d5cc1b7e-4467-4e74-85fc-500ff6f5e117",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31702
+  },
+  {
+    "counterValue": -10,
+    "dragging": null,
+    "id": "ee2be926-3f33-4b53-8260-48c013857f0a",
+    "label": "Prosaic YOLO Shard",
+    "type": "counter",
+    "x": 797.14,
+    "y": 124.77,
+    "z": 26039
+  },
+  {
+    "cardType": "diamonds-j",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "cf5c9620-5530-40b2-aa6d-b512d1fe95c2",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31685
+  },
+  {
+    "cardType": "spades-9",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "6130dabe-8812-411b-91f0-762e81805cc6",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31639
+  },
+  {
+    "cardType": "diamonds-q",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "0636b1b8-d3f4-46f4-9761-5dc4dc46deb7",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31686
+  },
+  {
+    "cardType": "spades-6",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "94578851-b16e-4049-b81f-ec45ca5f0816",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31612
+  },
+  {
+    "cardType": "diamonds-9",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "8fe25d98-fcad-4402-98e3-219f5ef48a00",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31695
+  },
+  {
+    "cardType": "clubs-6",
+    "deck": "60564e56-f842-4d57-af22-6a893fa176ef",
+    "dragging": null,
+    "faceup": false,
+    "id": "873f4cad-a0c5-4a55-b3dd-cc5239c5b63b",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "761ffa01-ee4a-4e2e-ad29-63282dd544e1",
+    "type": "card",
+    "x": 1475,
+    "y": 642,
+    "z": 31319
+  },
+  {
+    "cardType": "clubs-q",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "225cc82b-d1d8-4350-9ca9-714ea53f0e0e",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31669
+  },
+  {
+    "cardType": "hearts-7",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "326a5ad7-3f18-42bf-9732-1659de8d21ea",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31641
+  },
+  {
+    "cardType": "spades-a",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "2c436348-453f-4ef4-9163-6027dba9f9ea",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31675
+  },
+  {
+    "cardType": "clubs-5",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "def87d47-5193-4abe-a05f-ce2e08241bf8",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31603
+  },
+  {
+    "cardType": "spades-k",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "e53a9695-4d58-4d4e-bd0e-7aad3cc3fc25",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31622
+  },
+  {
+    "cardType": "hearts-5",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "8f4ab672-1945-425d-a976-cecb7a4b1e16",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31699
+  },
+  {
+    "cardType": "hearts-a",
+    "deck": "3088112e-a503-4747-9277-b8320e8b9615",
+    "dragging": null,
+    "faceup": false,
+    "id": "b50a1dc3-b9f2-4c54-a555-fc85535e23ee",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "3cbde22b-4ab2-408b-99c2-f3a7d8671c67",
+    "type": "card",
+    "x": 1477,
+    "y": 48,
+    "z": 31328
+  },
+  {
+    "cardType": "clubs-10",
+    "deck": "60564e56-f842-4d57-af22-6a893fa176ef",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "f6d142d2-83c9-49e1-893f-33f7c0e1bc98",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "761ffa01-ee4a-4e2e-ad29-63282dd544e1",
+    "type": "card",
+    "x": 1475,
+    "y": 642,
+    "z": 32322
+  },
+  {
+    "cardType": "hearts-q",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "f0f2dfaf-7980-40cc-9ba0-52e7fe21a098",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31648
+  },
+  {
+    "dragging": null,
+    "hasShuffleButton": false,
+    "hideStackTab": true,
+    "id": "13f41ce4-c7c9-479a-97b6-2c0d4ed64052",
+    "type": "cardPile",
+    "x": 1470.3,
+    "y": 434.16,
+    "z": 30726
+  },
+  {
+    "cardType": "hearts-3",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "0a414651-5c30-48ca-b99f-51de7dc912b4",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31667
+  },
+  {
+    "cardType": "hearts-k",
+    "deck": "3088112e-a503-4747-9277-b8320e8b9615",
+    "dragging": null,
+    "faceup": false,
+    "id": "77845cc2-503e-4989-b184-873d27e39727",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "3cbde22b-4ab2-408b-99c2-f3a7d8671c67",
+    "type": "card",
+    "x": 1477,
+    "y": 48,
+    "z": 31327
+  },
+  {
+    "cardType": "joker-black",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "b4b2516b-ffd6-4a75-9112-e874a88425e5",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31661
+  },
+  {
+    "cardType": "spades-7",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "06a08511-d149-4a65-8ef5-014b90ccd355",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31664
+  },
+  {
+    "allowedDecks": [
+      "1991c096-d4cc-4dda-bab4-72b597f8c4d7"
+    ],
+    "dragging": null,
+    "id": "eed9840e-2986-48a0-b122-d64bf8d03396",
+    "label": "Pivotal Act",
+    "layoutType": "spread",
+    "type": "cardPile",
+    "width": 506.26,
+    "x": 946.47,
+    "y": 235.27,
+    "z": 24428
+  },
+  {
+    "cardType": "diamonds-5",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "b1688cb6-567c-4633-99bb-495d07328e54",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31643
+  },
+  {
+    "cardType": "clubs-10",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "f9e1e4a4-ca79-4707-8ddf-3e786e3f3dbe",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31689
+  },
+  {
+    "cardType": "clubs-4",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "5d8bf661-a56b-44b2-b688-09b38607ef31",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31623
+  },
+  {
+    "cardType": "hearts-9",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "9fbe41bc-a3c6-47b6-b49c-1c09850c7c11",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31710
+  },
+  {
+    "cardType": "clubs-9",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "7c93e41c-d5fc-4df7-bbdf-91dee3801e66",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31618
+  },
+  {
+    "cardType": "spades-9",
+    "deck": "1991c096-d4cc-4dda-bab4-72b597f8c4d7",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "fa15f684-ea4a-4e75-bc18-e6feade741b4",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "ed822044-7c0f-41bd-951f-6146f87c1b89",
+    "type": "card",
+    "x": 1474,
+    "y": 241,
+    "z": 32440
+  },
+  {
+    "cardType": "clubs-k",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "ceec653d-3df8-4874-ae38-81c5f191d248",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31651
+  },
+  {
+    "cardType": "hearts-q",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "40a396b1-0854-404e-a6d1-c2cfda4e3eb6",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31705
+  },
+  {
+    "cardType": "hearts-j",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "3d4d8956-7cbe-4562-8a55-be4aea0465f6",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31640
+  },
+  {
+    "cardType": "diamonds-k",
+    "deck": "7dd2b86a-5141-4239-ac40-ae7b719fd279",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "11bc520d-6e97-4878-bf10-04d50443ab73",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "13f41ce4-c7c9-479a-97b6-2c0d4ed64052",
+    "type": "card",
+    "x": 1474,
+    "y": 438,
+    "z": 32172
+  },
+  {
+    "dragging": null,
+    "hasShuffleButton": false,
+    "hideStackTab": true,
+    "id": "3cbde22b-4ab2-408b-99c2-f3a7d8671c67",
+    "type": "cardPile",
+    "x": 1473.01,
+    "y": 44.57,
+    "z": 30724
+  },
+  {
+    "cardType": "clubs-2",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "98ecd35a-567c-4553-9622-e1211847e51a",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31619
+  },
+  {
+    "cardType": "spades-q",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "f8d93e5e-940e-4e58-afbc-e7c90f7b25bf",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31602
+  },
+  {
+    "cardType": "clubs-7",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "e4a329a2-2a9f-4dcc-85ab-6ca00ebaabb4",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31707
+  },
+  {
+    "cardType": "diamonds-q",
+    "deck": "7dd2b86a-5141-4239-ac40-ae7b719fd279",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "b2fbb08c-0042-48d0-8398-b64df15eca92",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "13f41ce4-c7c9-479a-97b6-2c0d4ed64052",
+    "type": "card",
+    "x": 1474,
+    "y": 438,
+    "z": 32086
+  },
+  {
+    "cardType": "hearts-5",
+    "deck": "3088112e-a503-4747-9277-b8320e8b9615",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "26415087-5d5b-460b-8101-5dd37de10151",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "3cbde22b-4ab2-408b-99c2-f3a7d8671c67",
+    "type": "card",
+    "x": 1477,
+    "y": 48,
+    "z": 32678
+  },
+  {
+    "cardType": "spades-8",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "906e5dfa-d1b2-4ee2-bdd9-f596e90eca25",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31700
+  },
+  {
+    "cardType": "diamonds-8",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "ef19f543-af2e-4a25-9f9b-bceef68bcaa1",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31677
+  },
+  {
+    "cardType": "diamonds-4",
+    "deck": "7dd2b86a-5141-4239-ac40-ae7b719fd279",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "6115b3ef-bb37-4246-ac07-a78242ac5761",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "13f41ce4-c7c9-479a-97b6-2c0d4ed64052",
+    "type": "card",
+    "x": 1474,
+    "y": 438,
+    "z": 32174
+  },
+  {
+    "cardType": "spades-2",
+    "deck": "1991c096-d4cc-4dda-bab4-72b597f8c4d7",
+    "dragging": null,
+    "faceup": false,
+    "id": "d1343e5c-d469-4a0f-a3b0-c3f8eba113d9",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "ed822044-7c0f-41bd-951f-6146f87c1b89",
+    "type": "card",
+    "x": 1474,
+    "y": 241,
+    "z": 31342
+  },
+  {
+    "dragging": null,
+    "id": "2cc9a24a-e948-4fa8-af66-dae4673af62d",
+    "seatColor": "orange",
+    "seatedUser": null,
+    "seatIndex": 1,
+    "seatInitials": null,
+    "seatLabel": null,
+    "type": "seat",
+    "x": 185.92,
+    "y": 667.56,
+    "z": 24417
+  },
+  {
+    "cardType": "spades-q",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "c41d83f8-b80e-4108-ac0f-7ff4971818e9",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31693
+  },
+  {
+    "cardType": "diamonds-3",
+    "deck": "7dd2b86a-5141-4239-ac40-ae7b719fd279",
+    "dragging": null,
+    "faceup": false,
+    "id": "4198e537-07ce-41d4-8e15-13a86ef6bb97",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "13f41ce4-c7c9-479a-97b6-2c0d4ed64052",
+    "type": "card",
+    "x": 1474,
+    "y": 438,
+    "z": 31302
+  },
+  {
+    "cardType": "clubs-q",
+    "deck": "60564e56-f842-4d57-af22-6a893fa176ef",
+    "dragging": null,
+    "faceup": false,
+    "id": "efd520f0-16f8-438c-bd79-fab3fc485937",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "761ffa01-ee4a-4e2e-ad29-63282dd544e1",
+    "type": "card",
+    "x": 1475,
+    "y": 642,
+    "z": 31316
+  },
+  {
+    "dragging": null,
+    "draggingType": null,
+    "hasShuffleButton": false,
+    "hideStackTab": true,
+    "id": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "cardPile",
+    "x": 431.06,
+    "y": 612.1,
+    "z": 32717
+  },
+  {
+    "cardType": "clubs-a",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "6bdc0368-cd88-4f40-910b-7d4d0568e449",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31635
+  },
+  {
+    "cardType": "hearts-7",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "3197b0fa-ab68-4061-bc54-6ebe68401b85",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31649
+  },
+  {
+    "cardType": "spades-5",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "c450443e-90aa-42c5-acd1-51c0c14c56aa",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31703
+  },
+  {
+    "counterValue": -10,
+    "dragging": null,
+    "id": "7db6085d-d0c7-4bf2-959b-6f738d298cff",
+    "label": "Pivotal Act",
+    "type": "counter",
+    "x": 799.88,
+    "y": 307.86,
+    "z": 26040
+  },
+  {
+    "cardType": "diamonds-7",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "3ef0563d-e85a-4d4c-a349-725f4c74c7a9",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31709
+  },
+  {
+    "cardType": "spades-5",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "ffff2127-5c67-413f-ab5a-6dc2baa04870",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31654
+  },
+  {
+    "cardType": "spades-8",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "b27a6d1c-09ef-46f2-9995-d67d1ae43726",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31645
+  },
+  {
+    "cardType": "joker-black",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "5f3516cd-900e-4788-b597-deae88b97003",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31698
+  },
+  {
+    "cardType": "diamonds-2",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "1a80ba55-5d01-4567-af0e-cfdfb460e6bc",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31652
+  },
+  {
+    "cardType": "hearts-8",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "1071cc25-7950-4fc2-9560-2ab138ed5e61",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31656
+  },
+  {
+    "bold": false,
+    "dragging": null,
+    "id": "ce54a126-4cd0-44ae-a3e4-21283535faf1",
+    "labelContent": "Dual Use",
+    "textAlign": "center",
+    "textSize": 18,
+    "type": "labelText",
+    "width": 100,
+    "x": 630.29,
+    "y": 483.53,
+    "z": 28095
+  },
+  {
+    "cardType": "clubs-6",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "bd3b0506-6926-46bd-8687-024ad3cc4453",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31606
+  },
+  {
+    "cardType": "spades-3",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "e54571bd-4a7f-4525-8ce3-c703ead8d89a",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31624
+  },
+  {
+    "cardHeight": 75,
+    "cardTypes": {
+      "type-1fb681ce-edac-4b25-a644-254336dc1bb1": {
+        "image": "package://userassets/adding_dice.svg",
+        "label": "adding dice"
+      },
+      "type-32e01200-9df9-41a1-b14f-ef37270ca491": {
+        "image": "package://userassets/removing_dice.svg",
+        "label": "removing dice"
+      }
+    },
+    "cardWidth": 75,
+    "collectionType": "choosers",
+    "dragging": null,
+    "faceTemplate": {
+      "objects": [
+        {
+          "color": "transparent",
+          "h": 75,
+          "type": "image",
+          "value": "image",
+          "valueType": "dynamic",
+          "w": 75,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    "id": "dfae0717-3586-4322-bb43-d5d572e5bfe8",
+    "owner": null,
+    "parent": null,
+    "type": "cardDeck",
+    "x": 1555.55,
+    "y": 889.15,
+    "z": 27305
+  },
+  {
+    "allowedDecks": [
+      "f53bff34-9257-432f-91b8-1db2c14c84d2"
+    ],
+    "dragging": null,
+    "height": 156.74,
+    "id": "b3d776b9-f6fd-4d51-8420-9d968aef2df3",
+    "layoutType": "grid",
+    "type": "cardPile",
+    "width": 602.63,
+    "x": 179.74,
+    "y": 222.01,
+    "z": 28734
+  },
+  {
+    "cardType": "diamonds-10",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "af31c37f-bc0b-4d4a-8f9e-1a5ce6e600f7",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31628
+  },
+  {
+    "cardType": "clubs-8",
+    "deck": "60564e56-f842-4d57-af22-6a893fa176ef",
+    "dragging": null,
+    "faceup": false,
+    "id": "d3e02d9d-4edb-449e-aa04-07c6a2cb59cd",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "761ffa01-ee4a-4e2e-ad29-63282dd544e1",
+    "type": "card",
+    "x": 1475,
+    "y": 642,
+    "z": 31314
+  },
+  {
+    "cardType": "clubs-a",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "8b25ac3a-0161-4004-b6e3-913e6f6d6e08",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31608
+  },
+  {
+    "cardType": "spades-7",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "3be4e3dd-fae7-4340-a18c-fb675955457a",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31610
+  },
+  {
+    "cardType": "spades-j",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "6e5ab802-1ae1-41cf-9354-5941ba56538e",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31637
+  },
+  {
+    "cardType": "spades-j",
+    "deck": "1991c096-d4cc-4dda-bab4-72b597f8c4d7",
+    "dragging": null,
+    "faceup": false,
+    "id": "cef66ab4-05ca-4510-9481-af49800d42e6",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "ed822044-7c0f-41bd-951f-6146f87c1b89",
+    "type": "card",
+    "x": 1474,
+    "y": 241,
+    "z": 31340
+  },
+  {
+    "cardType": "diamonds-2",
+    "deck": "7dd2b86a-5141-4239-ac40-ae7b719fd279",
+    "dragging": null,
+    "faceup": false,
+    "id": "b7609073-feb7-463c-95b8-216e17a1187b",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "13f41ce4-c7c9-479a-97b6-2c0d4ed64052",
+    "type": "card",
+    "x": 1474,
+    "y": 438,
+    "z": 31300
+  },
+  {
+    "cardType": "spades-2",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "8312777c-87da-4b9a-b9d0-a3e71e159590",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31704
+  },
+  {
+    "cardType": "clubs-5",
+    "deck": "60564e56-f842-4d57-af22-6a893fa176ef",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "539c7b53-0353-4f33-a658-b30f546befaf",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "761ffa01-ee4a-4e2e-ad29-63282dd544e1",
+    "type": "card",
+    "x": 1475,
+    "y": 642,
+    "z": 32223
+  },
+  {
+    "cardType": "spades-3",
+    "deck": "1991c096-d4cc-4dda-bab4-72b597f8c4d7",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "434e2ca6-8b59-4b90-94f0-fd2686e2ac2d",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "ed822044-7c0f-41bd-951f-6146f87c1b89",
+    "type": "card",
+    "x": 1474,
+    "y": 241,
+    "z": 32465
+  },
+  {
+    "cardType": "clubs-q",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "c16b0773-958a-4263-a214-32a5438617df",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31670
+  },
+  {
+    "clickRoutine": {
+      "steps": [
+        {
+          "args": {
+            "dice": {
+              "holders": [
+                "b3d776b9-f6fd-4d51-8420-9d968aef2df3"
+              ],
+              "queryWidgetTypes": [
+                "dice"
+              ],
+              "type": "query",
+              "value": []
+            }
+          },
+          "func": "ROLL_DICE",
+          "id": "69dde64a-b2ca-4a9f-ae34-c65caba7d936"
+        }
+      ]
+    },
+    "dragging": null,
+    "id": "3b5a06bf-87e6-48c5-bd64-7b3a57b90534",
+    "label": "Roll Mad Science",
+    "type": "automationButton",
+    "x": 270.46,
+    "y": 390.83,
+    "z": 29718
+  },
+  {
+    "cardType": "diamonds-a",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "7830d69e-5c27-431c-b707-0f204ce7bd6f",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31658
+  },
+  {
+    "cardType": "hearts-2",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "520dd257-e619-4952-a209-7f692f65bea5",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31629
+  },
+  {
+    "cardType": "hearts-k",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "19feda01-2742-4cd1-8a46-3bb112c4acfa",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31711
+  },
+  {
+    "cardType": "hearts-5",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "4ead31da-e51a-4541-ab51-40ae147b1539",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31650
+  },
+  {
+    "cardType": "hearts-10",
+    "deck": "4dd61932-2fac-4e32-8b8a-96574c3c23bd",
+    "dragging": null,
+    "draggingType": null,
+    "faceup": false,
+    "id": "fcda2f65-b650-46b0-9252-06761ee1c489",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "1b29ae25-be1e-40cb-a94a-90a85cf076c1",
+    "type": "card",
+    "x": 435,
+    "y": 616,
+    "z": 31697
+  },
+  {
+    "cardType": "hearts-9",
+    "deck": "3088112e-a503-4747-9277-b8320e8b9615",
+    "dragging": null,
+    "faceup": false,
+    "id": "4d188453-9136-43f8-be8a-108a6547f5de",
+    "layoutStackParent": null,
+    "owner": null,
+    "parent": "3cbde22b-4ab2-408b-99c2-f3a7d8671c67",
+    "type": "card",
+    "x": 1477,
+    "y": 48,
+    "z": 31326
+  },
+  {
+    "clickRoutine": {
+      "steps": []
+    },
+    "currentTurn": "235113d2-ecd4-477c-b2a5-ffbbc0ba9c96",
+    "dragging": null,
+    "id": "6474adb2-2c19-4ad0-8ca0-87984951c20c",
+    "playersCanReverse": false,
+    "turnCCW": false,
+    "type": "turnButton",
+    "x": 18.12,
+    "y": 463.85,
+    "z": 27324
+  },
+  {
+    "dragging": null,
+    "id": "235113d2-ecd4-477c-b2a5-ffbbc0ba9c96",
+    "seatColor": "red",
+    "seatedUser": null,
+    "seatIndex": 5,
+    "seatInitials": null,
+    "seatLabel": null,
+    "type": "seat",
+    "x": 10.17,
+    "y": 574.56,
+    "z": 24413
+  },
+  {
+    "dragging": null,
+    "id": "dcf30fcb-8c0b-4ec9-af7e-39f190649034",
+    "seatColor": "red",
+    "seatedUser": null,
+    "seatIndex": 0,
+    "seatInitials": null,
+    "seatLabel": null,
+    "type": "seat",
+    "x": 184.26,
+    "y": 574.51,
+    "z": 24418
+  },
+  {
+    "dragging": null,
+    "id": "eaf7e157-fa1a-4aac-b3d0-f17080b3badd",
+    "seatIndex": 4,
+    "type": "seat",
+    "x": 13.34,
+    "y": 667.38,
+    "z": 24412
+  },
+  {
+    "dragging": null,
+    "id": "d7f54143-8fd4-4580-9e28-cfaa45daa5d6",
+    "seatIndex": 3,
+    "type": "seat",
+    "x": 14.16,
+    "y": 757.87,
+    "z": 24410
+  },
+  {
+    "allowedDecks": [
+      "3088112e-a503-4747-9277-b8320e8b9615",
+      "1991c096-d4cc-4dda-bab4-72b597f8c4d7",
+      "60564e56-f842-4d57-af22-6a893fa176ef",
+      "7dd2b86a-5141-4239-ac40-ae7b719fd279"
+    ],
+    "dragging": null,
+    "hideStackTab": true,
+    "id": "265539c9-e7fd-40ee-95af-45cadcdb2168",
+    "label": "Target Cards",
+    "layoutType": "grid",
+    "type": "cardPile",
+    "width": 506.26,
+    "x": 276.26,
+    "y": 35.27,
+    "z": 30723
+  },
+  {
+    "clickRoutine": {
+      "steps": [
+        {
+          "args": {
+            "objects": {
+              "holders": [
+                "b3d776b9-f6fd-4d51-8420-9d968aef2df3"
+              ],
+              "queryWidgetTypes": [
+                "dice"
+              ],
+              "type": "query"
+            },
+            "to": {
+              "type": "literal",
+              "value": [
+                "882f834c-9d7b-43ce-9947-b26b8bf2b1eb"
+              ]
+            }
+          },
+          "func": "MOVE_CARDS_BETWEEN_HOLDERS",
+          "id": "aee8a5a7-1277-4400-830d-a27bfc943c91"
+        }
+      ]
+    },
+    "dragging": null,
+    "id": "d712930a-6cf9-44e3-9140-fdccef92bc20",
+    "label": "Lose a Die",
+    "type": "automationButton",
+    "x": 381.63,
+    "y": 388.67,
+    "z": 28745
+  },
+  {
+    "clickRoutine": {
+      "steps": [
+        {
+          "args": {
+            "objects": {
+              "holders": [
+                "882f834c-9d7b-43ce-9947-b26b8bf2b1eb"
+              ],
+              "queryWidgetTypes": [
+                "dice"
+              ],
+              "type": "query"
+            },
+            "to": {
+              "type": "literal",
+              "value": [
+                "b3d776b9-f6fd-4d51-8420-9d968aef2df3"
+              ]
+            }
+          },
+          "func": "MOVE_CARDS_BETWEEN_HOLDERS",
+          "id": "aee8a5a7-1277-4400-830d-a27bfc943c91"
+        }
+      ]
+    },
+    "dragging": null,
+    "id": "8b0083cf-d968-45cb-b14e-d24f7001c4f7",
+    "label": "Add a Die",
+    "type": "automationButton",
+    "x": 486.04,
+    "y": 389.12,
+    "z": 28744
+  },
+  {
+    "deck": "f53bff34-9257-432f-91b8-1db2c14c84d2",
+    "diceValue": "type-0abd20a9-6a5c-41ac-87e9-c9fef092e929",
+    "dragging": null,
+    "id": "93c69cc2-dc49-467e-ab23-f1c229e606d3",
+    "lastRoll": 1689718877322,
+    "owner": null,
+    "parent": "b3d776b9-f6fd-4d51-8420-9d968aef2df3",
+    "type": "dice",
+    "x": 283.88,
+    "y": 314.57,
+    "z": 29409
+  },
+  {
+    "allowPlayerMove": true,
+    "cardHeight": 50,
+    "cardOverlapH": 0,
+    "cardTypes": {
+      "five": {
+        "image": "/img/dice-basic/5.svg",
+        "label": "5"
+      },
+      "four": {
+        "image": "/img/dice-basic/4.svg",
+        "label": "4"
+      },
+      "one": {
+        "image": "/img/dice-basic/1.svg",
+        "label": "1"
+      },
+      "six": {
+        "image": "/img/dice-basic/6.svg",
+        "label": "6"
+      },
+      "three": {
+        "image": "/img/dice-basic/3.svg",
+        "label": "3"
+      },
+      "two": {
+        "image": "/img/dice-basic/2.svg",
+        "label": "2"
+      }
+    },
+    "cardWidth": 50,
+    "collectionType": "dice",
+    "dragging": null,
+    "faceTemplate": {
+      "includeBorder": "heavy",
+      "includeRadius": true,
+      "objects": [
+        {
+          "color": "transparent",
+          "h": 50,
+          "type": "image",
+          "value": "image",
+          "valueType": "dynamic",
+          "w": 50,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    "id": "bebb069d-af6f-4f1b-9244-ccbff8f2a58a",
+    "owner": null,
+    "parent": null,
+    "showUnflipped": true,
+    "type": "cardDeck",
+    "x": 1554.09,
+    "y": 807.1,
+    "z": 30867
+  },
+  {
+    "deck": "bebb069d-af6f-4f1b-9244-ccbff8f2a58a",
+    "diceValue": "one",
+    "dragging": null,
+    "draggingType": null,
+    "id": "ee7f15f3-2e72-412a-84ba-12812c73d4d5",
+    "lastRoll": 1689720801563,
+    "type": "dice",
+    "x": 655.04,
+    "y": 511.57,
+    "z": 32719
+  },
+  {
+    "clickRoutine": {
+      "popupMessage": "End game: Are you sure?",
+      "steps": [
+        {
+          "args": {
+            "flipFace": {
+              "type": "literal",
+              "value": "faceUp"
+            },
+            "flipMode": {
+              "type": "literal",
+              "value": "pile"
+            },
+            "objects": {
+              "holders": [
+                "265539c9-e7fd-40ee-95af-45cadcdb2168"
+              ],
+              "queryWidgetTypes": [
+                "card",
+                "piece"
+              ],
+              "type": "query"
+            },
+            "reverse": {
+              "type": "literal",
+              "value": "none"
+            }
+          },
+          "func": "FLIP_CARDS",
+          "id": "a85080f2-7a34-44e6-a9e6-8a4bb8f48c04"
+        }
+      ]
+    },
+    "dragging": null,
+    "draggingType": null,
+    "id": "28f5334d-b306-4946-afa2-086428adb13d",
+    "label": "End Game",
+    "type": "automationButton",
+    "x": 173.41,
+    "y": 120.03,
+    "z": 28086
+  },
+  {
+    "bold": false,
+    "dragging": null,
+    "id": "48a0ad8e-fc13-4200-a5d7-3a2fb7361074",
+    "labelContent": "Turn Button",
+    "textAlign": "center",
+    "textSize": 18,
+    "type": "labelText",
+    "width": 100,
+    "x": 52.18,
+    "y": 437.65,
+    "z": 27941
+  },
+  {
+    "dragging": null,
+    "id": "38eaf327-915c-43da-a242-e45f03663e26",
+    "type": "cardPile",
+    "x": 29.71,
+    "y": 31.49,
+    "z": 29763
+  },
+  {
+    "dragging": null,
+    "id": "f64d53fb-1849-4dc5-aa72-2687a3153d3e",
+    "type": "cardPile",
+    "x": 31.1,
+    "y": 223.03,
+    "z": 28732
+  },
+  {
+    "autoShuffle": false,
+    "backTemplate": {
+      "includeBorder": "heavy",
+      "includeRadius": true,
+      "objects": [
+        {
+          "color": "#840202",
+          "h": 160,
+          "type": "image",
+          "value": "/img/cardbacks/cardback-red.svg",
+          "valueType": "static",
+          "w": 103,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    "cardTypes": {
+      "type-a7db12f6-73b9-4468-89ba-1773c25eeecf": {
+        "image": "package://userassets/rules_1.svg",
+        "label": "Rules 1"
+      },
+      "type-b3289c13-6683-4d34-a66c-cc6f465aa5bb": {
+        "image": "package://userassets/rules_2.svg",
+        "label": "Rules 3"
+      },
+      "type-ffb7518a-6a0e-4bf9-bfdc-4a3e4b42050b": {
+        "image": "package://userassets/rules_3.svg",
+        "label": "Rules 2"
+      }
+    },
+    "dragging": null,
+    "enlarge": true,
+    "faceTemplate": {
+      "includeBorder": "heavy",
+      "includeRadius": true,
+      "objects": [
+        {
+          "color": "white",
+          "h": 160,
+          "type": "image",
+          "value": "image",
+          "valueType": "dynamic",
+          "w": 103,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "fontSize": 16,
+          "textAlign": "left",
+          "textFont": null,
+          "type": "text",
+          "value": "label",
+          "valueType": "dynamic",
+          "w": 60,
+          "x": 10,
+          "y": 10
+        }
+      ]
+    },
+    "id": "342a5c18-55ae-4d3e-a366-eccd136b9311",
+    "parent": "38eaf327-915c-43da-a242-e45f03663e26",
+    "showUnflipped": true,
+    "type": "cardDeck",
+    "x": 42.21,
+    "y": 72.49,
+    "z": 30707
+  },
+  {
+    "cardType": "type-a7db12f6-73b9-4468-89ba-1773c25eeecf",
+    "deck": "342a5c18-55ae-4d3e-a366-eccd136b9311",
+    "dragging": null,
+    "faceup": true,
+    "id": "b6723311-e661-4093-be64-2d86dbc6529f",
+    "owner": null,
+    "parent": "38eaf327-915c-43da-a242-e45f03663e26",
+    "type": "card",
+    "x": 33,
+    "y": 35,
+    "z": 31491
+  },
+  {
+    "cardType": "type-ffb7518a-6a0e-4bf9-bfdc-4a3e4b42050b",
+    "deck": "342a5c18-55ae-4d3e-a366-eccd136b9311",
+    "dragging": null,
+    "faceup": true,
+    "id": "b4126068-d893-4728-bf56-c9f013a5caef",
+    "owner": null,
+    "parent": "38eaf327-915c-43da-a242-e45f03663e26",
+    "type": "card",
+    "x": 33,
+    "y": 35,
+    "z": 31489
+  },
+  {
+    "cardType": "type-b3289c13-6683-4d34-a66c-cc6f465aa5bb",
+    "deck": "342a5c18-55ae-4d3e-a366-eccd136b9311",
+    "dragging": null,
+    "faceup": true,
+    "id": "8e577f61-55ef-46ac-855f-b6a64d101cf6",
+    "owner": null,
+    "parent": "38eaf327-915c-43da-a242-e45f03663e26",
+    "type": "card",
+    "x": 33,
+    "y": 35,
+    "z": 31490
+  }
+]
