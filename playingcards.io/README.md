@@ -1,4 +1,4 @@
-# Untitled AI Game
+# Path to Safety
 
 This is the game the Kraken cohort is creating for our cohort quest.
 
