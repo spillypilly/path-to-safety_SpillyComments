@@ -1,6 +1,7 @@
 {
   "tasks": {
-    "build": "./build.ts"
+    "test": "deno fmt --check && deno lint",
+    "build": "./build.tsx"
   },
   "fmt": {
     "lineWidth": 140

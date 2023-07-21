@@ -4246,12 +4246,27 @@
     "z": 27941
   },
   {
+    "allowedDecks": [
+      "342a5c18-55ae-4d3e-a366-eccd136b9311"
+    ],
     "dragging": null,
     "id": "38eaf327-915c-43da-a242-e45f03663e26",
     "type": "cardPile",
     "x": 29.71,
     "y": 31.49,
     "z": 29763
+  },
+  {
+    "allowedDecks": [
+      "342a5c18-55ae-4d3e-a366-eccd136b9311"
+    ],
+    "dragging": null,
+    "draggingType": null,
+    "id": "62fad5f0-7bbf-4f03-a60c-3c6dc8530e00",
+    "type": "cardPile",
+    "x": 27.9,
+    "y": 220.65,
+    "z": 46339
   },
   {
     "dragging": null,
@@ -4286,11 +4301,23 @@
       },
       "type-b3289c13-6683-4d34-a66c-cc6f465aa5bb": {
         "image": "package://userassets/rules_2.svg",
-        "label": "Rules 3"
+        "label": "Rules 2"
       },
       "type-ffb7518a-6a0e-4bf9-bfdc-4a3e4b42050b": {
         "image": "package://userassets/rules_3.svg",
-        "label": "Rules 2"
+        "label": "Rules 3"
+      },
+      "type-ffb7518a-6a0e-4bf9-bfdc-4a3e4b42050c": {
+        "image": "package://userassets/rules_4.svg",
+        "label": "Rules 4"
+      },
+      "type-ffb7518a-6a0e-4bf9-bfdc-4a3e4b42050d": {
+        "image": "package://userassets/rules_5.svg",
+        "label": "Rules 5"
+      },
+      "type-ffb7518a-6a0e-4bf9-bfdc-4a3e4b42050e": {
+        "image": "package://userassets/rules_6.svg",
+        "label": "Rules 6"
       }
     },
     "dragging": null,
@@ -4308,17 +4335,6 @@
           "w": 103,
           "x": 0,
           "y": 0
-        },
-        {
-          "fontSize": 16,
-          "textAlign": "left",
-          "textFont": null,
-          "type": "text",
-          "value": "label",
-          "valueType": "dynamic",
-          "w": 60,
-          "x": 10,
-          "y": 10
         }
       ]
     },
@@ -4355,6 +4371,45 @@
     "x": 33,
     "y": 35,
     "z": 31489
+  },
+  {
+    "cardType": "type-ffb7518a-6a0e-4bf9-bfdc-4a3e4b42050c",
+    "deck": "342a5c18-55ae-4d3e-a366-eccd136b9311",
+    "dragging": null,
+    "faceup": true,
+    "id": "b4126068-d893-4728-bf56-c9f013a5caeg",
+    "owner": null,
+    "parent": "38eaf327-915c-43da-a242-e45f03663e26",
+    "type": "card",
+    "x": 33,
+    "y": 35,
+    "z": 31402
+  },
+  {
+    "cardType": "type-ffb7518a-6a0e-4bf9-bfdc-4a3e4b42050d",
+    "deck": "342a5c18-55ae-4d3e-a366-eccd136b9311",
+    "dragging": null,
+    "faceup": true,
+    "id": "b4126068-d893-4728-bf56-c9f013a5caeh",
+    "owner": null,
+    "parent": "38eaf327-915c-43da-a242-e45f03663e26",
+    "type": "card",
+    "x": 33,
+    "y": 35,
+    "z": 31401
+  },
+  {
+    "cardType": "type-ffb7518a-6a0e-4bf9-bfdc-4a3e4b42050e",
+    "deck": "342a5c18-55ae-4d3e-a366-eccd136b9311",
+    "dragging": null,
+    "faceup": true,
+    "id": "b4126068-d893-4728-bf56-c9f013a5caei",
+    "owner": null,
+    "parent": "38eaf327-915c-43da-a242-e45f03663e26",
+    "type": "card",
+    "x": 33,
+    "y": 35,
+    "z": 31400
   },
   {
     "cardType": "type-b3289c13-6683-4d34-a66c-cc6f465aa5bb",
