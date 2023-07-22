@@ -1,6 +1,27 @@
+
+So to check:
+ - joker card = mad science card
+ - A-10 = innovation card
+ - J,Q,K = research card
+
+**suggestions for the card game GUI:
+ - add header to the 'strategy deck'
+ - change the name of 'dual use' to 'elevate AI' / 'raise stakes' (or is this the same as the 'acceleration risk die' refered to below?)
+ - change 'discard' to 'discard pile'
+ - add header to the 'science deck'
+   
+
 # Welcome to Path to Safety!
 
 You are a community of researchers racing to develop a strong AI alignment strategy before super-intelligent AI is developed.
+
+### Quick Play Summary
+ - Any time you get a joker card (termed 'mad science card'), play it immediately (even out of turn). The exception is if you draw the mad science card out-of-turn (see below), in which case you discard the mad science card and draw a new card.
+ - On your turn, draw a card, then either play it into the discard pile, or into the research column 
+ - The four suits (termed 'strategies') are: governance (clubs), agent foundations (diamonds), pivotal act (spades) and prosaic YOLO shard (hearts). They represent the four strategies available to prevent an AI catastrophy
+ - if you play the same strategy (suit) card as the previous player, you can play again
+ - if you play a card A,2,3,4 or 5, then the stakes increase (that is, you elevate the risk of AI winning, but also, all the other players pick up a card).
+ - if you play a J,Q or K, then draw a card from the 'strategy deck'
 
 ### Game Objective
 
@@ -25,19 +46,18 @@ First, draw a card (See "Drawing Cards"). Then take one of the following actions
 #### Research:
 
 Play a research card (See "Playing Research Cards"). If the strategy of the research card you played matches the strategy of the card
-beneath it in the discard pile, then gain momentum (See "Gaining Momentum").
+beneath it in the discard pile, take another turn.
 
 ---
 
 #### Publish:
 
 Play an innovation card (See "Playing Innovation Cards"). If the strategy of the innovation card you played matches the strategy of the card
-beneath it in the discard pile, then gain momentum (See "Gaining Momentum").
+beneath it in the discard pile, take another turn.
 
 #### Conference:
 
-Discard a card from your hand, and all other players draw a card. You do not advance Mad Science if you draw a Mad Science card from a
-Conference, instead simply discard the Mad Science card and draw a new card.
+Discard a card lower than 6 (ie. A-5) from your hand, and all other players draw a card. You do not advance Mad Science if you draw a Mad Science card from a Conference, instead simply discard the Mad Science card and draw a new card.
 
 ### At the End of the Round
 
@@ -55,7 +75,7 @@ card to your hand.
 
 ### Playing Research Cards
 
-When you play a research card, discard it from your hand into the Science discard pile. Then reveal the top card of the strategy deck
+When you play a research card, discard it from your hand into the discard pile. Then reveal the top card of the strategy deck
 indicated by the research card you discarded, moving the revealed strategy card to the appropriate revealed cards zone. Then roll the
 Acceleration Risk die. If the number shown on the Acceleration Risk die is lower than the Acceleration Risk value shown on the card, advance
 Mad Science. (You don't actually need to roll the die if the Acceleration Risk level is zero since this can't advance Mad Science)
